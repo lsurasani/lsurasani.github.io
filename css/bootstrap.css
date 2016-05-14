@@ -1274,6 +1274,7 @@ h2,
 h3,
 .h3 {
   font-size: 24px;
+  color: #001744;
 }
 h4,
 .h4 {
@@ -1338,11 +1339,11 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: #001744;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090;
+  color: #001744;
 }
 .text-success {
   color: #3c763d;
@@ -6058,14 +6059,14 @@ button.close {
   background-color: #000;
   border-radius: 4px;
 }
-.tooltip-arrow {
+.tooltip-ar {
   position: absolute;
   width: 0;
   height: 0;
   border-color: transparent;
   border-style: solid;
 }
-.tooltip.top .tooltip-arrow {
+.tooltip.top .tooltip-ar {
   bottom: 0;
   left: 50%;
   margin-left: -5px;
