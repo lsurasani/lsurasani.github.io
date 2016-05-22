@@ -15,5 +15,21 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: Verdana, Geneva, sans-serif
+    font-family: Verdana, Geneva, sans-serif;
+    color: #001744;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.apply{
+    margin-bottom: 15px;
+}
+
+h1, .h1{
+    font-weight: bold;
+    text-decoration: underline;
 }

@@ -61,7 +61,7 @@ dfn {
 }
 h1 {
   margin: .67em 0;
-  font-size: 2em;
+  font-size: 4em;
 }
 mark {
   color: #000;
@@ -4968,15 +4968,13 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-top: 30px;
-  height: 60vh;
+  /*padding-left: 30px;
+  padding-right: 30px;*/
+  /*margin-left: 85px;
+  margin-right: 85px;*/
+  height: 95vh;
   background-repeat: no-repeat;
   /*color: inherit;*/
   background-color: #000;
