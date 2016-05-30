@@ -1,5 +1,6 @@
 p, div {
-    font-family: Verdana, Geneva, sans-serif
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 10px;
 }
 
 body,
@@ -32,4 +33,34 @@ h6,
 h1, .h1{
     font-weight: bold;
     text-decoration: underline;
+}
+
+h3, .h3 {
+    text-decoration: underline;
+    color: #001744;
+}
+
+.drop-down.active {
+    color: #FF812E;
+}
+
+.change {
+    margin-top: 45px;
+}
+
+h2, .h2 {
+    text-decoration: underline;
+    color: #001744;
+}
+
+.kex {
+    margin-left:60px;
+}
+
+.jay {
+    margin-left:-60px;
+}
+
+h6, .h6 {
+    color: #001744;
 }
