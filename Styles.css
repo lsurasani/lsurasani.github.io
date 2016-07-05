@@ -88,5 +88,10 @@ h6, .h6 {
 }
 
 .emp {
-    border: 2px solid #FF812E;
+    border-left: 4px;
+    border-right: 4px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #FF812E;
 }
