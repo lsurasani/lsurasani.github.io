@@ -53,14 +53,21 @@ h2, .h2 {
     color: #001744;
 }
 
-.kex {
-    margin-left:60px;
-}
-
-.jay {
-    margin-left:-60px;
-}
 
 h6, .h6 {
     color: #001744;
+}
+
+.title {
+    text-align: center;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    /*margin-right:-4px;*/
 }
