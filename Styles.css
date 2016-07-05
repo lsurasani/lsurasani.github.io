@@ -76,3 +76,11 @@ h6, .h6 {
 .navHeaderCollapse {
     float: right;
 }
+
+.top-navbar {
+    display: inline;
+}
+
+.logo {
+    float: left;
+}
