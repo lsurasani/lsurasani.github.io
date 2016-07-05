@@ -94,4 +94,6 @@ h6, .h6 {
     border-bottom: 2px;
     border-style: solid;
     border-color: #FF812E;
+    padding-left: 5%;
+    padding-right: 5%;
 }
