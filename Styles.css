@@ -75,7 +75,7 @@ h6, .h6 {
 
 .navHeaderCollapse {
     float: right;
-    padding-right: 1%;
+    padding-right: 3%;
 }
 
 .top-navbar {
@@ -84,5 +84,5 @@ h6, .h6 {
 
 .logo {
     float: left;
-    padding-left: 1%;
+    padding-left: 3%;
 }
