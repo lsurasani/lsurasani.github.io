@@ -59,7 +59,8 @@ h6, .h6 {
 }
 
 .title {
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .row-centered {
