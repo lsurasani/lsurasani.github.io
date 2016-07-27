@@ -68,7 +68,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
                 <div class = "collapse navbar-collapse navHeaderCollapse">
                     <ul class = "nav navbar-nav navbar-right">
-                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "home.html">Home</a></li>
                         <li class = "dropdown">
                             <a href = "#" class = "dropdown-toggle" data-toggle="dropdown">About SCNO <b class = "caret"></b></a>
                             <ul class = "dropdown-menu">
