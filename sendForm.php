@@ -127,13 +127,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 </div>
             </div>
         </form>
-        <div class = "navbar navbar-inverse">
-            <div class = "container">
-                <ul class = "nav navbar-nav navbar-left">
-                    <li><a href="#">Made by SCNO GT</a></li>
-                </ul>
-            </div>
-        </div>
+
 
         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
         </script>
