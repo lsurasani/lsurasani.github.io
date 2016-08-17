@@ -55,7 +55,7 @@ if (!isset($errName) &&  !isset($errEmail) && !isset($errMessage) && !isset($err
 
     <body>
         <link href = "css/bootstrap.min.css" rel = "stylesheet">
-        <link href = "css/Styles.css" rel = "stylesheet">
+        <link href = "Styles.css" rel = "stylesheet">
 
         <div class = "navbar navbar-default navbar-static-top">
             <div class = "navigation">
