@@ -131,3 +131,8 @@ h6, .h6 {
 .row {
     width: 100%;
 }
+
+.inline-display {
+    display: inline;
+    margin-left: 5px;
+}
