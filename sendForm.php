@@ -6,7 +6,7 @@
         $message = $_POST['message'];
         $human = intval($_POST['human']);
         $from = 'From:' . $email;
-        $to = 'scno@gmail.com';
+        $to = 'scnogt@gmail.com';
         $subject = 'Message from Contact Form';
 
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
@@ -41,7 +41,7 @@ if (!isset($errName) &&  !isset($errEmail) && !isset($errMessage) && !isset($err
     }
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
     <head>
@@ -139,4 +139,4 @@ if (!isset($errName) &&  !isset($errEmail) && !isset($errMessage) && !isset($err
         </script>
     </body>
 
-</html>
+</html> -->
