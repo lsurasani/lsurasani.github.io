@@ -41,7 +41,7 @@ if (!isset($errName) &&  !isset($errEmail) && !isset($errMessage) && !isset($err
     }
 ?>
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
     <head>
@@ -54,8 +54,8 @@ if (!isset($errName) &&  !isset($errEmail) && !isset($errMessage) && !isset($err
     </head>
 
     <body>
-<!--         <link href = "css/bootstrap.min.css" rel = "stylesheet">
-        <link href = "css/styles.css" rel = "stylesheet"> -->
+        <link href = "css/bootstrap.min.css" rel = "stylesheet">
+        <link href = "css/styles.css" rel = "stylesheet">
 
         <div class = "navbar navbar-default navbar-static-top">
             <div class = "navigation">
@@ -139,4 +139,4 @@ if (!isset($errName) &&  !isset($errEmail) && !isset($errMessage) && !isset($err
         </script>
     </body>
 
-</html> -->
+</html>
