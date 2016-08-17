@@ -90,7 +90,7 @@ if (!isset($errName) &&  !isset($errEmail) && !isset($errMessage) && !isset($err
         </div>
 
         <div class="container" style="padding-top: 3rem;">
-            <form class="form-horizontal" role="form" method="post" action="<?PHP echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+            <form class="form-horizontal" role="form" method="post" action="sendForm.php">
                 <div class="form-group">
                     <label for="name" class="col-sm-2 control-label">Name</label>
                     <div class="col-sm-10">
