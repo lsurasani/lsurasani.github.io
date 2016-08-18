@@ -136,3 +136,7 @@ h6, .h6 {
     display: inline;
     margin-left: 5px;
 }
+
+.header h3 a {
+    color: #001744;
+}
