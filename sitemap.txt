@@ -1,7 +1,7 @@
-www.scnogt.com/index.html
-www.scnogt.com/we.html
-www.scnogt.com/members.html
-www.scnogt.com/clients.html
-www.scnogt.com/calendar.html
-www.scnogt.com/apply.html
-www.scnogt.com/contact.html
+http://www.scnogt.com/index.html
+http://www.scnogt.com/we.html
+http://www.scnogt.com/members.html
+http://www.scnogt.com/clients.html
+http://www.scnogt.com/calendar.html
+http://www.scnogt.com/apply.html
+http://www.scnogt.com/sendForm.php
