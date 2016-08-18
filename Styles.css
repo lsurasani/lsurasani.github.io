@@ -140,6 +140,19 @@ h6, .h6 {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .application-info {
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .application-info {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
 .row {
     width: 100%;
 }
