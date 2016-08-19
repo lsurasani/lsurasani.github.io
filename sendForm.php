@@ -81,7 +81,7 @@ if (!isset($errName) &&  !isset($errEmail) && !isset($errMessage) && !isset($err
                         <li><a href = "calendar.html">Calendar</a></li>
                         <li><a href = "apply.html">Apply</a></li>
                         <li><a href = "sendForm.php">Contact Us</a></li>
-                        <li><a href = "https://www.facebook.com/GTSCNO/" target="_blank">
+                        <li><a href = "https://www.facebook.com/SCNOGT/" target="_blank">
                             <img class="img-respnsive" src = "pics/fblogo.jpg" width="35" height="35">
                         </a></li>
                     </ul>
