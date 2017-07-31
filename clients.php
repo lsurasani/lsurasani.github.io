@@ -1,51 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <link rel="shortcut icon" href="pics/favicon-32x32.png" type="image/x-icon" />
-        <title>Students Consulting for Nonprofit Organizations</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href = "css/bootstrap.min.css" rel = "stylesheet">
-        <link href = "css/bootstrap.css" rel = "stylesheet">
-        <link href = "Styles.css" rel = "stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    </head>
+    <?php include "head.html"; ?>
 
     <body>
-        <!-- <link href = "css/bootstrap.min.css" rel = "stylesheet">
-        <link href = "css/styles.css" rel = "stylesheet"> -->
-
-        <div class = "navbar navbar-default navbar-static-top">
-            <div class = "navigation">
-                <a href="index.html" class="logo"><img class="img-responsive" src="pics/navbarlogo3.png" width="250" height="70"></a>
-
-                <button class = "navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                    <span class = "icon-bar"></span>
-                    <span class = "icon-bar"></span>
-                    <span class = "icon-bar"></span>
-                </button>
-
-                <div class = "collapse navbar-collapse navHeaderCollapse">
-                    <ul class = "nav navbar-nav navbar-right">
-                        <li><a href = "index.html">Home</a></li>
-                        <li class = "dropdown active">
-                            <a href = "#" class = "dropdown-toggle" data-toggle="dropdown">About SCNO <b class = "caret"></b></a>
-                            <ul class = "dropdown-menu">
-                                <li><a href = "we.html">What We Do</a></li>
-                                <li><a href = "members.html">Our Members</a></li>
-                                <li class = active><a href = "clients.html">Our Clients</a></li>
-                            </ul>
-                        </li>
-                        <li><a href = "calendar.html">Calendar</a></li>
-                        <li><a href = "apply.html">Apply</a></li>
-                        <li><a href = "contact.html">Contact Us</a></li>
-                        <li><a href = "https://www.facebook.com/SCNOGT/" target="_blank">
-                            <img class="img-responsive" src = "pics/fblogo.jpg" width="35" height="35">
-                        </a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php include "nav.html"; ?>
 
         <h1>Our Clients</h1><br><br><br>
 
