@@ -13,12 +13,12 @@
             </div>
         </div>
         <div class="ui vertical segment">
-            <div class="ui container">
-                <p>We are a student run organization at Georgia Tech. We give back to the community through consulting projects with local nonprofits in Atlanta.</p>
+            <div class="ui container mission-statement">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
             </div>
         </div>
         <div class="ui vertical segment">
-            <div class="ui grid">
+            <div class="ui grid container home-categories">
                 <div class="three column row">
                     <div class="column">
                         <h3 class = "text-center text-uppercase text-primary">Empowering Communities</h3><br>

@@ -179,3 +179,14 @@ h6, .h6 {
 .ui.secondary.menu {
     margin-bottom: 0;
 }
+
+.container.mission-statement {
+    width: 65%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.container.home-categories {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
