@@ -1,5 +1,4 @@
 p, div {
-    font-family: Verdana, Geneva, sans-serif;
     line-height: 10px;
 }
 
@@ -16,7 +15,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: Verdana, Geneva, sans-serif;
     color: #001744;
     text-align: center;
 }
@@ -37,7 +35,10 @@ h6,
 
 .header {
     text-align: center;
-    margin-top: 15px;
+}
+
+.header h1, .header h3 {
+    color: #fff;
 }
 
 .apply{
@@ -164,4 +165,17 @@ h6, .h6 {
 
 .header h3 a {
     color: #001744;
+}
+
+.pic-header {
+    height: 70%;
+    background-image: url(pics/jumbo.jpg) !important;
+    background-size: 100% auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ui.secondary.menu {
+    margin-bottom: 0;
 }
