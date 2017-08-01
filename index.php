@@ -9,7 +9,7 @@
         <div class="ui vertical segment pic-header">
             <div class="header">
                 <h1>Students Consulting for Nonprofit Organizations</h1>
-                <h3>At Georgia Tech</h3>
+                <h2>At Georgia Tech</h2>
             </div>
         </div>
         <div class="ui vertical segment">
