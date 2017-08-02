@@ -6,21 +6,110 @@
     <body>
         <?php include "nav.html"; ?>
 
-        <h3>Member Facts</h3>
-        <div class="row row-centered">
-            <div class="col-md-8 col-centered">
-                <div class="emp">
-                    <h4>Our Most Common Majors Include:</h3>
-                    <h5>Industrial Engineering</h5>
-                    <h5>Computer Science</h5>
-                    <h5>Biomedical Engineering</h5>
-                    <hr>
-                    <h4>Average Member GPA: 3.62</h4>
-                    <h4>Average Year: 2.7</h4>
+        <div class="ui container members">
+            <div class="ui horizontal divider">
+                <h1>Our Members</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="ui grid member-stats">
+                <div class="three column row">
+                    <div class="column">
+                        <div class="ui statistic">
+                            <div class="label">
+                            Average GPA
+                            </div>
+                            <div class="value">
+                            3.62
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui statistic">
+                            <div class="label">
+                            Average GPA
+                            </div>
+                            <div class="value">
+                            3.62
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui statistic">
+                            <div class="label">
+                            Average Year
+                            </div>
+                            <div class="value">
+                            2.7
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="ui horizontal divider">
+                <h1>Executive Board</h1>
+            </div>
+            <div class="ui exec-board">
+                <?php 
+                    class Member {
+                        public $name;
+                        public $linkedin;
+                        public $title;
+                        public $major;
+                        public $year;
+                        public $imgsrc;
+                    }
+
+                    $lekha = new Member();
+                    $lekha->name = 'Lekha Surasani';
+                    $lekha->linkedin = 'https://www.linkedin.com/in/lekha-surasani-b61b2584';
+                    $lekha->title = 'President';
+                    $lekha->year = '4th';
+                    $lekha->major = 'Computer Science';
+                    $lekha->imgsrc = 'pics/lekha.jpg';
+
+                    $vivek = new Member();
+                    $vivek->name="Vivek Jajoo";
+                    $vivek->linkedin="https://www.linkedin.com/in/vivek-jajoo-8a1397104";
+                    $vivek->title="VP of Operations";
+                    $vivek->year="3rd";
+                    $vivek->major="Industrial Engineering";
+                    $vivek->imgsrc="pics/vivek.jpg";
+
+                    $kexin = new Member();
+                    $kexin->name = 'Kexin Zhang';
+                    $kexin->linkedin = 'https://www.linkedin.com/in/kexinzhang1/';
+                    $kexin->title = 'VP of Marketing and Recruitment';
+                    $kexin->major = 'Industrial Engineering';
+                    $kexin->year = '3rd';
+                    $kexin->imgsrc = 'pics/kexin.jpeg';
+
+                    $lynn = new Member();
+                    $lynn->name = "Lynn You";
+                    $lynn->linkedin = 'https://www.linkedin.com/in/lynnyou';
+                    $lynn->title = "VP of Internal Affairs";
+                    $lynn->major = "Computer Science";
+                    $lynn->year = '3rd';
+                    $lynn->imgsrc = "pics/lynn.jpg";
+
+                    $execMembers = array($lekha, $vivek, $kexin, $lynn);
+
+                    echo '<div class="ui cards">';
+
+                    foreach($execMembers as $execMember) {
+                        echo '<div class="card">';
+                        echo '<div class="image"><img src="' . $execMember->imgsrc . '"></div>';
+                        echo '<div class="content">';
+                        echo $execMember->name . '<br>' . $execMember->year . 'Year, ' . $execMember->major . '<br>' . $execMember->title;
+                        echo '</div>';
+                        echo '</div>';
+                    }
+
+                    echo '</div>';
+                ?>
             </div>
         </div>
 
+<!-- 
         <h3>Executive Board</h3><br>
         <div class="row">
             <div class="col-md-4">
@@ -100,7 +189,7 @@
                     <p>2nd Year, Computer Science</p>
                     <p> Secretary</p>
                 </div>
-        </div>
+        </div> -->
 
         <?php include "scripts.html"; ?>
     </body>

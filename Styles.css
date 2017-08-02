@@ -216,7 +216,7 @@ h6, .h6 {
     color: #fff;
 }
 
-.container.about-us p {
+.container p {
     font-size: 1.1em;
     line-height: 1.2em;
 }
@@ -235,4 +235,22 @@ h6, .h6 {
 
 .about-us .right.floated.image {
     margin: 1.5em -3em 1.5em 1.5em;
+}
+
+.member-stats {
+    text-align: center;
+    width: 50%;
+    margin: 1em auto !important;
+}
+
+.exec-board .cards .content {
+    line-height: 1.2em;
+}
+
+.exec-board .cards {
+    justify-content: center;
+}
+
+.exec-board .card {
+    width: 250px !important;
 }
