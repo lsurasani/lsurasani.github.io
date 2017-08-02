@@ -6,38 +6,23 @@
     <body>
         <?php include "nav.html"; ?>
 
-        <h3>Empowering Communities</h3>
-            <div class="row row-centered">
-                <div class="col-md-8 col-centered">
-                    <div class="emp">
-                        <h4>We consult pro-bono for nonprofits around Atlanta, accelerating their success by developing innovating solutions to a variety of problems. Our students are passionate about giving back to the community and dedicated to changing people's lives.</h4>
-                    </div>
-                </div>
+        <div class="ui text container about-us">
+            <div class="ui item">
+                <h3>Empowering Communities</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-        <h3>Developing Leaders</h3>
-            <div class="row row-centered">
-                <div class="col-md-4 col-centered">
-                    <div class="emp">
-                        <h4>Everyone in SCNO is placed on a project in a role that best matches their skill level.
-                            The structure of the organization allows for members to quickly gain leadership skills.
-                            We also host resume, interview, and case question prep workshops for our members.
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-centered">
-                    <img src = "pics/org.png" class="img-responsive center-block" align="center">
-                </div>
+            <div class="ui item">
+                <img class="ui medium right floated image transition visible" src="pics/org.png" width="175">
+                <h3>Developing Leaders</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-        <h3>Delivering Results</h3>
-            <div class="row row-centered">
-                <div class="col-md-8 col-centered">
-                    <div class="emp">
-                        <h4>
-                            The project culminates with the team working on a final presentation and a detailed final report for the client to ensure that the project was meaningul and the most impactful.</h4>
-                    </div>
-                </div>
+            <div class="ui item">
+                <img class="ui medium right floated image transition visible" src="pics/members.jpg" width="300">
+                <h3>Delivering Results</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-        <br><br><br>
+        </div>
+
         <?php include "scripts.html"; ?>
     </body>
 

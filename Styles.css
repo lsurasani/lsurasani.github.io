@@ -16,7 +16,6 @@ h6,
 .h5,
 .h6 {
     color: #001744;
-    text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -182,19 +181,18 @@ h6, .h6 {
 .container.mission-statement {
     width: 65%;
     margin: 0 auto;
-    padding: 2rem 0;
 }
 
-.container.home-categories {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
 }
 
 .vertical.segment h4 {
     font-size: 1.25em;
 }
 
-.vertical.segment h3 {
+.vertical.segment h3, .container h3 {
     font-size: 1.5em;
 }
 
@@ -204,6 +202,10 @@ h6, .h6 {
     margin: 1.5rem 0;
 }
 
+.home-categories {
+    text-align: center;
+}
+
 .pic-header h1 {
     font-size: 2.5em;
 }
@@ -211,4 +213,22 @@ h6, .h6 {
 .pic-header h2 {
     font-size: 2em;
     color: #fff;
+}
+
+.container.about-us p {
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+.container.about-us h3 {
+    color: #FF812E;
+    margin-top: 1rem;
+}
+
+.about-us .left.floated.image {
+    margin: 1.5em 1.5em 1.5em -3em;
+}
+
+.about-us .right.floated.image {
+    margin: 1.5em -3em 1.5em 1.5em;
 }
