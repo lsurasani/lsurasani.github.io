@@ -16,6 +16,7 @@ h6,
 .h5,
 .h6 {
     color: #001744;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width: 800px) {
@@ -222,7 +223,10 @@ h6, .h6 {
 
 .container.about-us h3 {
     color: #FF812E;
-    margin-top: 1rem;
+}
+
+.container.about-us .ui.item {
+    padding-bottom: .5em;
 }
 
 .about-us .left.floated.image {
