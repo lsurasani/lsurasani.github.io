@@ -271,3 +271,9 @@ h6, .h6 {
     max-width: 100%;
     width: auto !important;
 }
+
+.contact-us p {
+    padding-bottom: 1.5rem; 
+    font-size: 1.1; 
+    text-align: center
+}
