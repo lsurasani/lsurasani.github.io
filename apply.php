@@ -6,12 +6,15 @@
     <body>
         <?php include "nav.html"; ?>
 
-        <h1>How To Apply</h1><br>
-        <div class ="apply">
-            <img src ="pics/step1.jpg" class="img-responsive center-block" align="center">
-            <img src = "pics/step2.jpg" style="margin-bottom: 10px" class="img-responsive center-block" align = "center">
+        <div class ="ui text container apply">
+            <div class="ui horizontal divider">
+                <h1>Apply</h1>
+            </div>
+
+            <img src ="pics/step1.jpg" class="ui image" align="center">
+            <img src = "pics/step2.jpg" style="margin-bottom: 10px" class="ui image" align = "center">
             
-            <img src = "pics/step3.jpg" class="img-responsive center-block" align="center">
+            <img src = "pics/step3.jpg" class="ui image" align="center">
         </div>
 
         <?php include "scripts.html"; ?>
