@@ -243,14 +243,31 @@ h6, .h6 {
     margin: 1em auto !important;
 }
 
-.exec-board .cards .content {
-    line-height: 1.2em;
+.cards .content, .cards .content div {
+    line-height: 1.2em !important;
 }
 
-.exec-board .cards {
+.exec-board .cards, .projects .cards {
     justify-content: center;
 }
 
 .exec-board .card {
     width: 250px !important;
+}
+
+.ui.divider {
+    margin-bottom: 2rem !important;
+}
+
+.projects .card div.image {
+    height: 125px;
+    background: #fff !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .card div.image img {
+    max-width: 100%;
+    width: auto !important;
 }
