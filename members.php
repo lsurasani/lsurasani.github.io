@@ -13,17 +13,7 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="ui stackable grid member-stats">
-                    <div class="three column row">
-                        <div class="column">
-                            <div class="ui statistic">
-                                <div class="label">
-                                Average GPA
-                                </div>
-                                <div class="value">
-                                3.62
-                                </div>
-                            </div>
-                        </div>
+                    <div class="equal width row">
                         <div class="column">
                             <div class="ui statistic">
                                 <div class="label">

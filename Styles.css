@@ -21,6 +21,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .footer h4, .footer h5, .footer a {
@@ -348,4 +349,38 @@ h6, .h6 {
     justify-content: center;
     width: 100%;
     background-attachment: fixed !important;
+}
+
+.ui.statistic .label {
+    color: #FF812E;
+}
+
+.footer .column {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-only-menu {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-only-menu {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .desktop-menu {
+        display: none !important;
+    }
+}
+
+.connect-us {   
+    padding-bottom: 5px !important;
+}
+
+.footer-links {
+    padding-top: 0 !important;
 }
