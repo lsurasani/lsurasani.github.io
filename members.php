@@ -12,7 +12,7 @@
                     <h1>Our Members</h1>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="ui grid member-stats">
+                <div class="ui stackable grid member-stats">
                     <div class="three column row">
                         <div class="column">
                             <div class="ui statistic">

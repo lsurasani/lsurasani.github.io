@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="ui vertical segment">
-                <div class="ui grid container home-categories">
+                <div class="ui grid stackable container home-categories">
                     <div class="three column row">
                         <div class="column">
                             <h3 class = "text-center text-uppercase text-primary">Empowering Communities</h3><br>
