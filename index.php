@@ -6,7 +6,6 @@
     <body>
         <div class="main">
             <?php include "nav.html"; ?>
-
             <div class="ui vertical segment pic-header">
                 <div class="header">
                     <h1>Students Consulting for Nonprofit Organizations</h1>

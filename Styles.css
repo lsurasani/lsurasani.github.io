@@ -221,15 +221,6 @@ h6, .h6 {
     color: #001744;
 }
 
-.pic-header {
-    height: 70vh;
-    background-image: url(pics/jumbo.jpg) !important;
-    background-size: 100% auto !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .ui.secondary.menu {
     margin-bottom: 0;
 }
@@ -336,4 +327,24 @@ h6, .h6 {
 
 .member-stats {
     margin-bottom: 3rem !important;
+}
+
+.pic-header h1 {
+    font-size: 2.5em;
+}
+
+.pic-header h2 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.pic-header {
+    height: 70vh;
+    background: url(pics/jumbo.jpg) no-repeat center center fixed !important;
+    background-size: cover !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-attachment: fixed !important;
 }
