@@ -14,7 +14,7 @@
             </div>
             <div class="ui vertical segment">
                 <div class="ui container mission-statement">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                    <h4>Students Consulting for Nonprofit Organizations (SCNO) at Georgia Tech aims to help local nonprofit organizations by guiding our members in developing problem solving skills and real-world client interaction. Together, we can contribute to our community by solving industry challenges through analysis, project development, and detailed recommendations.</h4>
                 </div>
             </div>
             <div class="ui vertical segment">

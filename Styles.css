@@ -225,6 +225,7 @@ h6, .h6 {
 
 .ui.secondary.menu {
     margin-bottom: 0;
+    border-bottom: 1px solid rgba(34,36,38,.15)
 }
 
 .container.mission-statement {
@@ -381,6 +382,14 @@ h6, .h6 {
     padding-bottom: 5px !important;
 }
 
-.footer-links {
-    padding-top: 0 !important;
+.footer i.dark {
+    color: #001744;
+}
+
+.footer i {
+    opacity: .8;
+}
+
+.footer i:hover {
+    opacity: 1;
 }
