@@ -229,8 +229,11 @@ h6, .h6 {
 }
 
 .container.mission-statement {
-    width: 65%;
     margin: 0 auto;
+}
+
+.container.mission-statement h4 {
+    font-weight: 500 !important;
 }
 
 .container {
@@ -280,11 +283,11 @@ h6, .h6 {
 }
 
 .about-us .left.floated.image {
-    margin: 1.5em 1.5em 1.5em -3em;
+    margin: 0em 1.5em 1.5em -3em;
 }
 
 .about-us .right.floated.image {
-    margin: 1.5em -3em 1.5em 1.5em;
+    margin: 0em -3em 1.5em 1.5em;
 }
 
 .member-stats {
@@ -375,6 +378,11 @@ h6, .h6 {
 
     .desktop-menu {
         display: none !important;
+    }
+
+    .about-us img {
+        float: none !important;
+        margin: 1em auto !important;
     }
 }
 
