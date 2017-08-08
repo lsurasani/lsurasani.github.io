@@ -110,7 +110,7 @@
                         $ellen->name = 'Ellen Pao';
                         $ellen->linkedin = 'https://www.linkedin.com/in/ellentpao/';
                         $ellen->title = 'Director of Marketing';
-                        $ellen->major = 'Business and Computer Science';
+                        $ellen->major = 'Business: IT Management';
                         $ellen->year = '3rd';
                         $ellen->imgsrc = 'pics/ellen.jpg';
 
