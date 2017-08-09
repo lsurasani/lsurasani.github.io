@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-    <?php include "head.html"; ?>
+    <head>
+        <?php include "head.html"; ?>
+        <title>Students Consulting for Nonprofit Organizations - Contact Us</title>
+    </head>
 
     <body>
         <?php include_once("analyticstracking.php") ?>
-        
+
         <div class="main">
             <?php include "nav.html"; ?>
             <div class="ui text container contact-us">
