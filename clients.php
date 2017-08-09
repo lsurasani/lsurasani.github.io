@@ -79,7 +79,7 @@
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
-                                echo '<div class="image"><img src="' . $project->logo . '"></div>';
+                                echo '<div class="image"><img src="' . $project->logo . '" alt="' . $project->name .' logo"></div>';
                                 echo '<div class="content"><div class="header">' . $project->name . '</div><div class="description">' . $project->description . '</div></div>';
                                 echo '</div>';
                             }

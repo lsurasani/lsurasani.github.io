@@ -28,19 +28,19 @@
                     <div class="three column row">
                         <div class="column">
                             <h3 class = "text-center text-uppercase text-primary">Empowering Communities</h3><br>
-                            <img src = "pics/nonprofit.jpg" class = "center-block"><br>
+                            <img src = "pics/nonprofit.jpg" class ="center-block" alt="house"><br>
                             <h6 class = "text-center">We consult for nonprofit organizations in Atlanta, solving different kinds of problems.</h6>
                             <a href = "we.php" class = "ui primary basic button">Get Consulted</a>
                         </div>
                         <div class="column">
                             <h3 class = "text-center text-uppercase text-primary">Developing Leaders</h3><br>
-                            <img src = "pics/student.jpg" class = "center-block"><br>
+                            <img src = "pics/student.jpg" class = "center-block" alt="lightbulb"><br>
                             <h6 class = "text-center">We have the most passionate students from a variety of majors to create innovative solutions.</h6>
                             <a href = "apply.php" class = "ui primary basic button">Apply Now</a>
                         </div>
                         <div class="column">
                             <h3 class = "text-center text-uppercase text-primary">Delivering Results</h3><br>
-                            <img src = "pics/results.jpg" class = "center-block"><br>
+                            <img src = "pics/results.jpg" class = "center-block" alt="chart"><br>
                             <h6 class = "text-center">We give our clients a presentation and a detailed report of our recommendations.</h6>
                              <a href = "clients.php" class = "ui primary basic button">Our Clients</a>
                         </div>

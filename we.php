@@ -24,12 +24,12 @@
                 </div>
                 <div class="ui item">
                     <h3>Developing Leaders</h3>
-                    <img class="ui medium right floated image transition visible" src="pics/org.png" width="175">
+                    <img class="ui medium right floated image transition visible" src="pics/org.png" width="175" alt="Diagram of SCNO's team structure">
                     <p>Through SCNO, our members gain rewarding, real world experience in interacting with clients, completing projects, and applying problem solving skills. Each member is placed on a project in a role that best matches their skill level. The structure of the organization allows for members to quickly gain leadership skills. We also encourage our members to grow professionally by hosting resume, interview. and case question prep workshops.</p>
                 </div>
                 <div class="ui item">
                     <h3>Delivering Results</h3>
-                    <img class="ui medium right floated image transition visible" src="pics/members.jpg" width="300">
+                    <img class="ui medium right floated image transition visible" src="pics/members.jpg" width="300" alt="Picture from SCNO's end of semester presentation">
                     <p>Our projects are typically one semester (three to four months) long. At the beginning of each semester, we collaborate with clients to define the scope of the project and ensure that the project is rewarding for both SCNO members and the nonprofit organization. Teams of six to eight students work on each project and provide updates throughout the semester. At the end of each project term, each team delivers a final presentation, as well as a detailed report to the client. This ensures progress and overall sucess, allowing both SCNO and the client to realize the impact of the project.</p>
                 </div>
             </div>

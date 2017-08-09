@@ -131,7 +131,7 @@
                             }
 
                             echo '<div class="card">';
-                            echo '<div class="image"><img src="' . $execMember->imgsrc . '"></div>';
+                            echo '<div class="image"><img src="' . $execMember->imgsrc . '" alt="SCNO executive board member: ' . $execMember->name . '"></div>';
                             echo '<div class="content">';
                             echo $execMember->name . $linkedin_icon . '<br>' . $execMember->year . ' Year, ' . $execMember->major . '<br>' . $execMember->title;
                             echo '</div>';
