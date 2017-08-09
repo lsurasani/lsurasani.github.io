@@ -47,15 +47,24 @@
                             $c21 = new Project();
                             $c21->logo = "pics/21C.jpg";
                             $c21->name = "21st Century STEM Foundation";
-                            $c21->description = "21st Century Science, Technology, Engineering and Math (STEM) foundation established in 2008 to aid in providing multi-disciplinary learning experiences to inner city youth. 21st Century STEM Foundation's mission is to inspire, engage and educate youth through innovative programs, training and activities to create future leaders of tomorrow in Science, Technology, Engineering and Math (STEM) related careers.
-         SCNO has been working with this organization for a year to develop a marketing and public relations strategy for the organization to enact as a way of increasing awareness.";
+                            $c21->description = "21st Century STEM  foundation established in 2008 to aid in providing multi-disciplinary learning experiences to inner city youth. The Foundation's mission is to inspire, engage and educate youth through innovative programs, training and activities to create future leaders of tomorrow in Science, Technology, Engineering and Math (STEM) related careers. Over the past year, SCNO has been tasked with helping the organization in strategy development, research, and marketing.";
 
                             $tephinet = new Project();
                             $tephinet->logo = "pics/tephinet.png";
                             $tephinet->name = "TEPHINET and GCN";
                             $tephinet->description = "Training Programs in Epidemiology and Public Health Interventions Network (TEPHINET) is a global nonprofit that falls under the jurisdiction of GCN. TEPHINET's main objective is to make healthcare more accessible globally, particularly in the field of epidemiology, through the training of specialists in over 90 countries. SCNO was able to help them make progress towards this goal by suggesting the use of a more easily accessible virtual platform as well as reforming their sources of funding.";
 
-                            $projects = array($tephinet, $c21, $tfa, $ccsi, $pcrf, $ghf);
+                            $gcn = new Project();
+                            $gcn->logo = "pics/gcn.jpg";
+                            $gcn->name = "Georgia Center for Nonprofits";
+                            $gcn->description = "The Georgia Center for Nonprofits (GCN) provides professional consulting services geared towards Atlanta nonprofits. SCNO completed an internal project with GCN to assess the current nonprofit market and identify effective avenues for acquiring and engaging with clients.";
+
+                            $litehouse = new Project();
+                            $litehouse->logo = "pics/litehouse.jpg";
+                            $litehouse->name = "Litehouse";
+                            $litehouse->description = "Litehouse provides free recreational and educational after school programs throughout Georgia. SCNO helped further Litehouse’s goals by developing a financial strategy and identifying potential sources of funding for their new standardized testing preparation program.";
+
+                            $projects = array($gcn, $tephinet, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
