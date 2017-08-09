@@ -4,6 +4,7 @@
     <head>
         <?php include "head.html"; ?>
         <title>Students Consulting for Nonprofit Organizations - Contact Us</title>
+        <meta name="description" content="Interested in becoming a member or a client? Contact SCNO at Georgia Tech here!">
     </head>
 
     <body>

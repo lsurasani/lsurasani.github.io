@@ -4,6 +4,7 @@
     <head>
         <?php include "head.html"; ?>
         <title>Students Consulting for Nonprofit Organizations - Our Members</title>
+        <meta name="description" content="Our members are passionate about applying their analytical, communication, and leadership skills to contribute to the Atlanta community.">
     </head>
 
     <body>

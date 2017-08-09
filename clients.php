@@ -4,6 +4,7 @@
     <head>
         <?php include "head.html"; ?>
         <title>Students Consulting for Nonprofit Organizations - Our Clients</title>
+        <meta name="description" content="SCNO aims to empower the Atlanta community through rewarding consulting projects with local nonprofits.">
     </head>
 
     <body>

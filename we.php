@@ -4,6 +4,8 @@
     <head>
         <?php include "head.html"; ?>
         <title>Students Consulting for Nonprofit Organizations - What We Do</title>
+        <meta name="description" content="We are a university-based consulting organization dedicated to giving back to the community through pro bono consulting projects for nonprofit organizations around Atlanta.">
+
     </head>
 
     <body>
