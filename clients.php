@@ -70,7 +70,12 @@
                             $litehouse->name = "Litehouse";
                             $litehouse->description = "Litehouse provides free recreational and educational after school programs throughout Georgia. SCNO helped further Litehouse’s goals by developing a financial strategy and identifying potential sources of funding for their new standardized testing preparation program.";
 
-                            $projects = array($gcn, $tephinet, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $iws = new Project();
+                            $iws->logo = "pics/iws.jpg";
+                            $iws->name = "I Will Survive";
+                            $iws->description = "I Will Survive, Inc. is a domestic non-profit organization that promotes breast cancer awareness through education and financially assists those affected during and after treatment. We helped develop sustainability and broaden the outreach of the organization through a focused approach on improving their human resources, online presence and financial management. SCNO's efforts will potentially double I Will Survive's community outreach and funding in the next 2 years.";
+
+                            $projects = array($gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
