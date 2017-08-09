@@ -4,7 +4,8 @@
     <?php include "head.html"; ?>
 
     <body>
-
+        <?php include_once("analyticstracking.php") ?>
+        
         <div class="main">
             <?php include "nav.html"; ?>
             <div class="ui text container contact-us">
