@@ -84,7 +84,7 @@
 
                         $ronak = new Member();
                         $ronak->name = 'Ronak Mukhopadhyay';
-                        $ronak->linkedin = '';
+                        $ronak->linkedin = 'https://www.linkedin.com/in/ronak-mukhopadhyay-aa48a2101';
                         $ronak->title = 'VP of Projects';
                         $ronak->year = '4th';
                         $ronak->major = 'Industrial Engineering';
@@ -119,10 +119,15 @@
                         echo '<div class="ui cards">';
 
                         foreach($execMembers as $execMember) {
+                            $linkedin_icon = '';
+                            if (!empty($execMember->linkedin)) {
+                                $linkedin_icon = '<a href="' . $execMember->linkedin . '" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>';
+                            }
+
                             echo '<div class="card">';
                             echo '<div class="image"><img src="' . $execMember->imgsrc . '"></div>';
                             echo '<div class="content">';
-                            echo $execMember->name . '<br>' . $execMember->year . ' Year, ' . $execMember->major . '<br>' . $execMember->title;
+                            echo $execMember->name . $linkedin_icon . '<br>' . $execMember->year . ' Year, ' . $execMember->major . '<br>' . $execMember->title;
                             echo '</div>';
                             echo '</div>';
                         }
