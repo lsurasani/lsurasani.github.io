@@ -52,7 +52,7 @@
 
                             $tephinet = new Project();
                             $tephinet->logo = "pics/tephinet.png";
-                            $tephinet->name = "TEPHINET";
+                            $tephinet->name = "TEPHINET and GCN";
                             $tephinet->description = "Training Programs in Epidemiology and Public Health Interventions Network (TEPHINET) is a global nonprofit that falls under the jurisdiction of GCN. TEPHINET's main objective is to make healthcare more accessible globally, particularly in the field of epidemiology, through the training of specialists in over 90 countries. SCNO was able to help them make progress towards this goal by suggesting the use of a more easily accessible virtual platform as well as reforming their sources of funding.";
 
                             $projects = array($tephinet, $c21, $tfa, $ccsi, $pcrf, $ghf);
