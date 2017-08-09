@@ -88,7 +88,7 @@
                         $ronak->title = 'VP of Projects';
                         $ronak->year = '4th';
                         $ronak->major = 'Industrial Engineering';
-                        $ronak->imgsrc = 'pics/ronak.png';
+                        $ronak->imgsrc = 'pics/ronak.jpg';
 
                         $rohil = new Member();
                         $rohil->name = 'Rohil Shah';
@@ -96,7 +96,7 @@
                         $rohil->title = 'Director of Projects';
                         $rohil->year = '3rd';
                         $rohil->major = 'Industrial Engineering';
-                        $rohil->imgsrc = 'pics/rohil.png';
+                        $rohil->imgsrc = 'pics/rohil.jpg';
 
                         $kexin = new Member();
                         $kexin->name = 'Kexin Zhang';
