@@ -1,6 +1,6 @@
-http://www.scnogt.com/index.php
-http://www.scnogt.com/we.php
-http://www.scnogt.com/members.php
-http://www.scnogt.com/clients.php
-http://www.scnogt.com/apply.php
-http://www.scnogt.com/contact.php
+http://www.scnogt.com
+http://www.scnogt.com/we
+http://www.scnogt.com/members
+http://www.scnogt.com/clients
+http://www.scnogt.com/apply
+http://www.scnogt.com/contact
