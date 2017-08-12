@@ -75,7 +75,12 @@
                             $iws->name = "I Will Survive";
                             $iws->description = "I Will Survive, Inc. is a domestic non-profit organization that promotes breast cancer awareness through education and financially assists those affected during and after treatment. We helped develop sustainability and broaden the outreach of the organization through a focused approach on improving their human resources, online presence and financial management. SCNO's efforts will potentially double I Will Survive's community outreach and funding in the next 2 years.";
 
-                            $projects = array($gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $adc = new Project();
+                            $adc->logo = "pics/adc.png";
+                            $adc->name = "H.O.P.E Central (Atlanta Dream Center)";
+                            $adc->description = "Partnered with Atlanta Dream Center, H.O.P.E Central provides an educational alternative to the bottom-ranked schools in the Atlanta School District around the Old Gordon neighborhood. Georgia Tech’s chapter of SCNO spearheaded an engagement with the program to streamline the budget, mobilize volunteer resources, and acquire funding and supplies necessary for education. H.O.P.E Central is able to launch its initiative on schedule in August 2017 due to the recommendations and analyses the SCNO team provided.";
+
+                            $projects = array($gcn, $tephinet, $adc, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
