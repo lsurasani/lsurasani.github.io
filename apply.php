@@ -18,10 +18,10 @@
                     <h1>Apply</h1>
                 </div>
 
-                <a href="https://docs.google.com/forms/d/1NPg-F9gEO_DYfQ1F9oPz3OtZxaccomLR5CVKERWKP2k/edit" target="_blank"><img src ="pics/step1.jpg" class="ui image" align="center"></a>
-                <img src = "pics/step2.jpg" style="margin-bottom: 10px" class="ui image" align = "center">
+                <a href="https://docs.google.com/forms/d/1NPg-F9gEO_DYfQ1F9oPz3OtZxaccomLR5CVKERWKP2k/edit" target="_blank"><img src ="pics/step1.1.jpg" class="ui image" align="center"></a>
+                <img src = "pics/step2.1.jpg" style="margin-bottom: 10px" class="ui image" align = "center">
                 
-                <img src = "pics/step3.jpg" class="ui image" align="center">
+                <img src = "pics/step3.1.jpg" class="ui image" align="center">
             </div>
 
             <?php include "footer.html"; ?>
