@@ -30,7 +30,7 @@
                             <h3 class = "text-center text-uppercase text-primary">Empowering Communities</h3><br>
                             <img src = "pics/nonprofit.jpg" class ="center-block" alt="house"><br>
                             <h6 class = "text-center">We consult for nonprofit organizations in Atlanta, solving different kinds of problems.</h6>
-                            <a href = "/we" class = "ui primary basic button">Get Consulted</a>
+                            <a href = "/we" class = "ui primary basic button">Become a Client</a>
                         </div>
                         <div class="column">
                             <h3 class = "text-center text-uppercase text-primary">Developing Leaders</h3><br>
