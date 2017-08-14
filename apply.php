@@ -18,10 +18,7 @@
                     <h1>Apply</h1>
                 </div>
 
-                <a href="https://docs.google.com/forms/d/1NPg-F9gEO_DYfQ1F9oPz3OtZxaccomLR5CVKERWKP2k/edit" target="_blank"><img src ="pics/step1.3.png" class="ui image" align="center"></a>
-                <img src = "pics/step2.2.png" style="margin-bottom: 10px" class="ui image" align = "center">
-                
-                <img src = "pics/step3.2.png" class="ui image" align="center">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXu-meHb5oj8VM4ECI62L3UY8TGrn-Fv1zjQP-qWl7G5TiMg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
 
             <?php include "footer.html"; ?>
