@@ -18,7 +18,7 @@
                     <h1>Apply</h1>
                 </div>
 
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXu-meHb5oj8VM4ECI62L3UY8TGrn-Fv1zjQP-qWl7G5TiMg/viewform?embedded=true" width=300% height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXu-meHb5oj8VM4ECI62L3UY8TGrn-Fv1zjQP-qWl7G5TiMg/viewform?embedded=true" width=200% height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
 
             <?php include "footer.html"; ?>
