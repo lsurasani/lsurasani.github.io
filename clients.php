@@ -68,7 +68,7 @@
                             $litehouse = new Project();
                             $litehouse->logo = "pics/litehouse.jpg";
                             $litehouse->name = "Litehouse";
-                            $litehouse->description = "Litehouse Partners is a non-profit founded in Atlanta that focuses on improving the lives of students in low-income localities by providing afterschool activities and eductional programs such as reading programs, computer learning and other social activities. Litehouse Partners approached SCNO GT with a project involving creating a program proposal and budget for a CRCT Training Program that is essentially a reading program designed to help first graders improve their reading abilities to at least grade reading level in preparation for the CRCT tests. Following our team's delivery of the project proposal and anticipated budget, Litehouse Partner's founder was able to secure United Way's interest and approval of the project and both organizations are currently in collaboration to find funding for the program. ";
+                            $litehouse->description = "Litehouse Partners is a non-profit founded in Atlanta that focuses on improving the lives of students in low-income localities by providing afterschool activities and educational programs. Litehouse Partners approached SCNO GT with a project involving creating a program proposal and budget for a CRCT Training Program to help first graders improve their reading abilities to at least grade reading level. Following our team's delivery of the project proposal and anticipated budget, Litehouse Partner's founder was able to secure United Way's interest and approval of the project and both organizations are currently in collaboration to find funding for the program.";
 
                             $iws = new Project();
                             $iws->logo = "pics/iws.jpg";
@@ -77,10 +77,10 @@
 
                             $adc = new Project();
                             $adc->logo = "pics/adc.png";
-                            $adc->name = "H.O.P.E Central (Atlanta Dream Center)";
+                            $adc->name = "Atlanta Dream Center";
                             $adc->description = "Partnered with Atlanta Dream Center, H.O.P.E Central provides an educational alternative to the bottom-ranked schools in the Atlanta School District around the Old Gordon neighborhood. Georgia Tech’s chapter of SCNO spearheaded an engagement with the program to streamline the budget, mobilize volunteer resources, and acquire funding and supplies necessary for education. H.O.P.E Central is able to launch its initiative on schedule in August 2017 due to the recommendations and analyses the SCNO team provided.";
 
-                            $projects = array($gcn, $tephinet, $adc, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $projects = array($adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
