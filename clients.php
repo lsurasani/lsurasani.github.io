@@ -68,7 +68,7 @@
                             $litehouse = new Project();
                             $litehouse->logo = "pics/litehouse.jpg";
                             $litehouse->name = "Litehouse";
-                            $litehouse->description = "Litehouse provides free recreational and educational after school programs throughout Georgia. SCNO helped further Litehouse’s goals by developing a financial strategy and identifying potential sources of funding for their new standardized testing preparation program.";
+                            $litehouse->description = "Litehouse Partners is a non-profit founded in Atlanta that focuses on improving the lives of students in low-income localities by providing afterschool activities and eductional programs such as reading programs, computer learning and other social activities. Litehouse Partners approached SCNO GT with a project involving creating a program proposal and budget for a CRCT Training Program that is essentially a reading program designed to help first graders improve their reading abilities to at least grade reading level in preparation for the CRCT tests. Following our team's delivery of the project proposal and anticipated budget, Litehouse Partner's founder was able to secure United Way's interest and approval of the project and both organizations are currently in collaboration to find funding for the program. ";
 
                             $iws = new Project();
                             $iws->logo = "pics/iws.jpg";
