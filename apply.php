@@ -17,7 +17,7 @@
                 <div class="ui horizontal divider">
                     <h1>Apply</h1>
                 </div>
-                <p>We are now accepting applications for Fall 2017! To be considered, please apply using the form below. To learn more about SCNO, come to our recruitment mixer on August 31st at 6pm in DM Smith Room 105!</p>
+                <p>We are now accepting applications for Fall 2017. To be considered, please apply using the form below. We're also hosting a mixer for prospective members on August 31st at 6pm in DM Smith Room 105! </p>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXu-meHb5oj8VM4ECI62L3UY8TGrn-Fv1zjQP-qWl7G5TiMg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
 
