@@ -5,7 +5,7 @@
         <?php include "head.html"; ?>
         <title>Students Consulting for Nonprofit Organizations at Georgia Tech</title>
         <meta name="description" content="SCNO at Georgia Tech aims to help local nonprofit organizations by guiding our members in developing problem solving skills and real-world client interaction.">
-        <meta property="og:image" content="http://www.scnogt.com/pics/navbarlogo3.png" />
+        <meta property="og:image" content="http://www.scnogt.com/pics/logo.png" />
     </head>
 
     <body>
