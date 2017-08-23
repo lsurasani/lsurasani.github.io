@@ -29,19 +29,19 @@
                             $ccsi = new Project();
                             $ccsi->logo = "pics/CCSI.jpg";
                             $ccsi->name = "CCSI";
-                            $ccsi->description = "CCSI serves as a resource and service center to uplift and empower people in Atlanta's Westside Community through enrichment programs and community services. SCNO has been working over one year to restructure the organization to become a separate entity from the church by providing high level structuring guidelines and roadmaps.";
+                            $ccsi->description = "CCSI serves as a resource and service center to uplift and empower people in Atlanta's Westside Community through enrichment programs and community services. SCNO worked with CCSI to restructure the organization to become a separate entity from the church by providing high level structuring guidelines and roadmaps.";
 
                             $tfa = new Project();
                             $tfa->logo = "pics/TFA.jpg";
                             $tfa->name = "Teach for America";
                             $tfa->description = "Teach for America is a national nonprofit organization aimed at improving the quality of education. Teach for America recruits graduates from top universities to teach for two years in public schools that lack funding and resources.
-                                SCNO works with the Atlanta branch of Teach for America to address decreasing application numbers from Georgia Tech students.";
+                                SCNO worked with the Atlanta branch of Teach for America to address decreasing application numbers from Georgia Tech students. The SCNO team conducted survey data analysis, cost benefit analysis, and competitor analysis to deliver a detailed, targeted marketing strategy.";
 
                             $pcrf = new Project();
                             $pcrf->logo = "pics/PCRF.jpg";
                             $pcrf->name = "Palestine's Children's Relief Fund";
-                            $pcrf->description = "The Palestine Children's Relief Fund is a non-political, non-profit organization that works to aid the medical and humanitarian crisis in the middle east.
-                                They focus specifically on suffering children in the Middle East with varying medical needs. SCNO  worked  with this organization over one year to develop a comprehensive portfolio to attract donations and apply for corporate level sponsorships and grants.";
+                            $pcrf->description = "The Palestine Children's Relief Fund is a non-political, nonprofit organization that works to aid the medical and humanitarian crisis in the middle east.
+                                They focus specifically on suffering children in the Middle East with varying medical needs. SCNO developed a comprehensive portfolio to attract donations and apply for corporate level sponsorships and grants.";
 
                             $ghf = new Project();
                             $ghf->logo = "pics/GHF.png";
@@ -53,7 +53,7 @@
                             $c21 = new Project();
                             $c21->logo = "pics/21C.jpg";
                             $c21->name = "21st Century STEM Foundation";
-                            $c21->description = "21st Century STEM  foundation established in 2008 to aid in providing multi-disciplinary learning experiences to inner city youth. The Foundation's mission is to inspire, engage and educate youth through innovative programs, training and activities to create future leaders of tomorrow in Science, Technology, Engineering and Math (STEM) related careers. Over the past year, SCNO has been tasked with helping the organization in strategy development, research, and marketing.";
+                            $c21->description = "21st Century STEM foundation was established in 2008 to aid in providing multi-disciplinary learning experiences to inner city youth. The Foundation's mission is to inspire, engage and educate youth through innovative programs, training, and activities to create future leaders of tomorrow in Science, Technology, Engineering and Math (STEM) related careers. Over the past year, SCNO has been tasked with helping the organization in strategy development, research, and marketing.";
 
                             $tephinet = new Project();
                             $tephinet->logo = "pics/tephinet.png";
