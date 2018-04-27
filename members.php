@@ -56,13 +56,13 @@
                             public $imgsrc;
                         }
 
-                        $lekha = new Member();
-                        $lekha->name = 'Ellen Pao';
-                        $lekha->linkedin = 'https://www.linkedin.com/in/ellentpao/';
-                        $lekha->title = 'Co-President';
-                        $lekha->year = '3rd';
-                        $lekha->major = 'Information Technology Management';
-                        $lekha->imgsrc = 'pics/ellen.jpg';
+                        $ellen = new Member();
+                        $ellen->name = 'Ellen Pao';
+                        $ellen->linkedin = 'https://www.linkedin.com/in/ellentpao/';
+                        $ellen->title = 'Co-President';
+                        $ellen->year = '3rd';
+                        $ellen->major = 'Information Technology Management';
+                        $ellen->imgsrc = 'pics/ellen.jpg';
 
                         $vivek = new Member();
                         $vivek->name="Vivek Jajoo";
