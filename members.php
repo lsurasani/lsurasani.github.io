@@ -64,13 +64,13 @@
                         $ellen->major = 'Information Technology Management';
                         $ellen->imgsrc = 'pics/ellen.jpg';
 
-                        $vivek = new Member();
-                        $vivek->name="Vivek Jajoo";
-                        $vivek->linkedin="https://www.linkedin.com/in/vivek-jajoo-8a1397104";
-                        $vivek->title="VP of Operations";
-                        $vivek->year="3rd";
-                        $vivek->major="Industrial Engineering";
-                        $vivek->imgsrc="pics/vivek.jpg";
+                        $rohil = new Member();
+                        $rohil->name = 'Rohil Shah';
+                        $rohil->linkedin = '';
+                        $rohil->title = 'Co-President';
+                        $rohil->year = '3rd';
+                        $rohil->major = 'Industrial Engineering';
+                        $rohil->imgsrc = 'pics/rohil.jpg';
 
                         $dani = new Member();
                         $dani->name="Dani Gresge";
@@ -96,13 +96,7 @@
                         $ronak->major = 'Industrial Engineering';
                         $ronak->imgsrc = 'pics/ronak.jpg';
 
-                        $rohil = new Member();
-                        $rohil->name = 'Rohil Shah';
-                        $rohil->linkedin = '';
-                        $rohil->title = 'Director of Projects';
-                        $rohil->year = '3rd';
-                        $rohil->major = 'Industrial Engineering';
-                        $rohil->imgsrc = 'pics/rohil.jpg';
+                      
 
                         $kexin = new Member();
                         $kexin->name = 'Kexin Zhang';
