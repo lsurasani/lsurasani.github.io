@@ -73,10 +73,10 @@
                         $rohil->imgsrc = 'pics/rohil.jpg';
 
                         $dani = new Member();
-                        $dani->name="Dani Gresge";
-                        $dani->linkedin = 'https://www.linkedin.com/in/danielle-gresge-a69803106';
-                        $dani->title = 'VP of External Affairs';
-                        $dani->year = '3rd';
+                        $dani->name="Sean Chua";
+                        $dani->linkedin = '';
+                        $dani->title = 'VP of Internal Affairs';
+                        $dani->year = '2nd';
                         $dani->major = 'Industrial Engineering';
                         $dani->imgsrc="pics/dani.jpg";
      
