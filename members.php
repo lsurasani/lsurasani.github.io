@@ -78,7 +78,7 @@
                         $sean->title = 'VP of Internal Affairs';
                         $sean->year = '2nd';
                         $sean->major = 'Industrial Engineering';
-                        $sean->imgsrc="pics/Sean.JPG";
+                        $sean->imgsrc="pics/sean.jpg";
      
                         $lynn = new Member();
                         $lynn->name = "Lynn You";
