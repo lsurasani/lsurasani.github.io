@@ -78,15 +78,15 @@
                         $sean->title = 'VP of Internal Affairs';
                         $sean->year = '2nd';
                         $sean->major = 'Industrial Engineering';
-                        $sean->imgsrc="pics/sean.jpg";
+                        $sean->imgsrc="";
      
                         $lynn = new Member();
-                        $lynn->name = "Lynn You";
-                        $lynn->linkedin = 'https://www.linkedin.com/in/lynnyou';
+                        $lynn->name = "Sean Chua";
+                        $lynn->linkedin = '';
                         $lynn->title = "VP of Internal Affairs";
-                        $lynn->major = "Computer Science";
-                        $lynn->year = '3rd';
-                        $lynn->imgsrc = "pics/lynn.jpg";
+                        $lynn->major = "Industrial Engineering";
+                        $lynn->year = '2nd';
+                        $lynn->imgsrc = "pics/sean.jpg";
 
                         $ronak = new Member();
                         $ronak->name = 'Ronak Mukhopadhyay';
@@ -108,7 +108,7 @@
 
                
 
-                        $execMembers = array($ellen, $rohil, $sean, $lynn, $ronak, $kexin);
+                        $execMembers = array($ellen, $rohil, $lynn, $ronak, $kexin);
 
                         echo '<div class="ui cards">';
 
