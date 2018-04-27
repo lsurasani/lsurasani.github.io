@@ -57,12 +57,12 @@
                         }
 
                         $lekha = new Member();
-                        $lekha->name = 'Lekha Surasani';
-                        $lekha->linkedin = 'https://www.linkedin.com/in/lekha-surasani-b61b2584';
-                        $lekha->title = 'President';
-                        $lekha->year = '4th';
-                        $lekha->major = 'Computer Science';
-                        $lekha->imgsrc = 'pics/lekha.jpg';
+                        $lekha->name = 'Ellen Pao';
+                        $lekha->linkedin = 'https://www.linkedin.com/in/ellentpao/';
+                        $lekha->title = 'Co-President';
+                        $lekha->year = '3rd';
+                        $lekha->major = 'Information Technology Management';
+                        $lekha->imgsrc = 'pics/ellen.jpg';
 
                         $vivek = new Member();
                         $vivek->name="Vivek Jajoo";
@@ -112,15 +112,9 @@
                         $kexin->year = '3rd';
                         $kexin->imgsrc = 'pics/kexin.jpeg';
 
-                        $ellen = new Member();
-                        $ellen->name = 'Ellen Pao';
-                        $ellen->linkedin = 'https://www.linkedin.com/in/ellentpao/';
-                        $ellen->title = 'Director of Marketing';
-                        $ellen->major = 'Business: IT Management';
-                        $ellen->year = '3rd';
-                        $ellen->imgsrc = 'pics/ellen.jpg';
+               
 
-                        $execMembers = array($lekha, $vivek, $dani, $lynn, $ronak, $rohil, $kexin, $ellen);
+                        $execMembers = array($ellen, $vivek, $dani, $lynn, $ronak, $rohil, $kexin);
 
                         echo '<div class="ui cards">';
 
