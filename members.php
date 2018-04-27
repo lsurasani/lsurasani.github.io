@@ -72,13 +72,13 @@
                         $rohil->major = 'Industrial Engineering';
                         $rohil->imgsrc = 'pics/rohil.jpg';
 
-                        $dani = new Member();
-                        $dani->name="Sean Chua";
-                        $dani->linkedin = '';
-                        $dani->title = 'VP of Internal Affairs';
-                        $dani->year = '2nd';
-                        $dani->major = 'Industrial Engineering';
-                        $dani->imgsrc="pics/dani.jpg";
+                        $sean = new Member();
+                        $sean->name="Sean Chua";
+                        $sean->linkedin = '';
+                        $sean->title = 'VP of Internal Affairs';
+                        $sean->year = '2nd';
+                        $sean->major = 'Industrial Engineering';
+                        $sean->imgsrc="pics/Sean.JPG";
      
                         $lynn = new Member();
                         $lynn->name = "Lynn You";
@@ -108,7 +108,7 @@
 
                
 
-                        $execMembers = array($ellen, $rohil, $dani, $lynn, $ronak, $kexin);
+                        $execMembers = array($ellen, $rohil, $sean, $lynn, $ronak, $kexin);
 
                         echo '<div class="ui cards">';
 
