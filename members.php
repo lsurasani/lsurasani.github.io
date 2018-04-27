@@ -124,7 +124,7 @@
 
                
 
-                        $execMembers = array($ellen, $rohil, $sean, $max, $sam);
+                        $execMembers = array($ellen, $rohil, $sam, $max, $sean);
 
                         echo '<div class="ui cards">';
 
