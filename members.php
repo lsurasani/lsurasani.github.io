@@ -108,7 +108,7 @@
 
                
 
-                        $execMembers = array($ellen, $vivek, $dani, $lynn, $ronak, $rohil, $kexin);
+                        $execMembers = array($ellen, $rohil, $dani, $lynn, $ronak, $kexin);
 
                         echo '<div class="ui cards">';
 
