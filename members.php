@@ -89,22 +89,22 @@
                         $lynn->imgsrc = "pics/sean.jpg";
 
                         $ronak = new Member();
-                        $ronak->name = 'Ronak Mukhopadhyay';
-                        $ronak->linkedin = 'https://www.linkedin.com/in/ronak-mukhopadhyay-aa48a2101';
-                        $ronak->title = 'VP of Projects';
-                        $ronak->year = '4th';
+                        $ronak->name = 'Max Massella';
+                        $ronak->linkedin = '';
+                        $ronak->title = 'VP of Professional Development';
+                        $ronak->year = '3rd';
                         $ronak->major = 'Industrial Engineering';
-                        $ronak->imgsrc = 'pics/ronak.jpg';
+                        $ronak->imgsrc = '';
 
                       
 
                         $kexin = new Member();
-                        $kexin->name = 'Kexin Zhang';
-                        $kexin->linkedin = 'https://www.linkedin.com/in/kexinzhang1/';
+                        $kexin->name = 'Sam Bluth';
+                        $kexin->linkedin = '';
                         $kexin->title = 'VP of Marketing and Recruitment';
                         $kexin->major = 'Industrial Engineering';
-                        $kexin->year = '3rd';
-                        $kexin->imgsrc = 'pics/kexin.jpeg';
+                        $kexin->year = '2nd';
+                        $kexin->imgsrc = '';
 
                
 
