@@ -78,7 +78,7 @@
                         $sean->title = 'VP of Internal Affairs';
                         $sean->year = '2nd';
                         $sean->major = 'Industrial Engineering';
-                        $sean->imgsrc="";
+                        $sean->imgsrc="pics/noimage.jpg";
      
                         $lynn = new Member();
                         $lynn->name = "Sean Chua";
@@ -86,7 +86,16 @@
                         $lynn->title = "VP of Internal Affairs";
                         $lynn->major = "Industrial Engineering";
                         $lynn->year = '2nd';
-                        $lynn->imgsrc = "pics/sean.jpg";
+                        $lynn->imgsrc = "pics/noimage.jpg";
+                        
+                        $max = new Member();
+                        $max->name = 'Max Massella';
+                        $max->linkedin = '';
+                        $max->title = 'VP of Professional Development';
+                        $max->year = '3rd';
+                        $max->major = 'Industrial Engineering';
+                        $max->imgsrc = 'pics/noimage.jpg';
+                    
 
                         $ronak = new Member();
                         $ronak->name = 'Max Massella';
@@ -95,9 +104,16 @@
                         $ronak->year = '3rd';
                         $ronak->major = 'Industrial Engineering';
                         $ronak->imgsrc = '';
-
+                         
+                        $sam = new Member();
+                        $sam->name = 'Sam Bluth';
+                        $sam->linkedin = '';
+                        $sam->title = 'VP of Marketing and Recruitment';
+                        $sam->major = 'Industrial Engineering';
+                        $sam->year = '2nd';
+                        $sam->imgsrc = 'pics/noimage.jpg';
                       
-
+    
                         $kexin = new Member();
                         $kexin->name = 'Sam Bluth';
                         $kexin->linkedin = '';
@@ -108,7 +124,7 @@
 
                
 
-                        $execMembers = array($ellen, $rohil, $lynn, $ronak, $kexin);
+                        $execMembers = array($ellen, $rohil, $sean, $max, $sam);
 
                         echo '<div class="ui cards">';
 
