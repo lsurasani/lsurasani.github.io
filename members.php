@@ -78,7 +78,7 @@
                         $sean->title = 'VP of Internal Affairs';
                         $sean->year = '2nd';
                         $sean->major = 'Industrial Engineering';
-                        $sean->imgsrc="pics/noimage.jpg";
+                        $sean->imgsrc="pics/sean.jpeg";
      
                         $lynn = new Member();
                         $lynn->name = "Sean Chua";
@@ -94,7 +94,7 @@
                         $max->title = 'VP of Professional Development';
                         $max->year = '3rd';
                         $max->major = 'Industrial Engineering';
-                        $max->imgsrc = 'pics/sean.jpeg';
+                        $max->imgsrc = 'pics/noimage.jpg';
                     
 
                         $ronak = new Member();
