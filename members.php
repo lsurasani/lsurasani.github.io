@@ -111,7 +111,7 @@
                         $sam->title = 'VP of Marketing and Recruitment';
                         $sam->major = 'Industrial Engineering';
                         $sam->year = '2nd';
-                        $sam->imgsrc = 'pics/noimage.jpg';
+                        $sam->imgsrc = 'pics/sam.jpeg';
                       
     
                         $kexin = new Member();
