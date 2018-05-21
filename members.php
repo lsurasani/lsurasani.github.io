@@ -94,7 +94,7 @@
                         $max->title = 'VP of Professional Development';
                         $max->year = '3rd';
                         $max->major = 'Industrial Engineering';
-                        $max->imgsrc = 'pics/noimage.jpg';
+                        $max->imgsrc = 'pics/max.jpeg';
                     
 
                         $ronak = new Member();
