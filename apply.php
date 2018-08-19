@@ -17,7 +17,8 @@
                 <div class="ui horizontal divider">
                     <h1>Apply</h1>
                 </div>
-                <p>We are no longer accepting applications for Spring 2017. If you are interested in joining SCNO, please check back in August about our Fall 2018 application process!</p>
+                <p>Apply for an analyst position for our Fall 2018 Client Projects!</p>
+                <p> https://docs.google.com/forms/d/e/1FAIpQLSckZEjcVeF_VHGCWSLNtJiLPW5NpPSnCCGYS5aHLqAdp6nuYQ/viewform </p>
             </div>
 
             <?php include "footer.html"; ?>
