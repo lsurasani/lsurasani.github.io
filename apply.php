@@ -18,7 +18,7 @@
                     <h1>Apply</h1>
                 </div>
                 <p>Apply for an analyst position for our Fall 2018 Client Projects!</p>
-                <p> https://docs.google.com/forms/d/e/1FAIpQLSckZEjcVeF_VHGCWSLNtJiLPW5NpPSnCCGYS5aHLqAdp6nuYQ/viewform </p>
+                <p><a> https://docs.google.com/forms/d/e/1FAIpQLSckZEjcVeF_VHGCWSLNtJiLPW5NpPSnCCGYS5aHLqAdp6nuYQ/viewform </a></p>
             </div>
 
             <?php include "footer.html"; ?>
