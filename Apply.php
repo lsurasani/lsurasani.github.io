@@ -3,7 +3,7 @@
     
     <head>
         <?php include "head.html"; ?>
-        <title>Students Consulting for Nonprofit Organizations - Info</title>
+        <title>Students Consulting for Nonprofit Organizations - Apply</title>
         <meta name="description" content="Get information on join Students Consulting for Nonprofit Organizations at Georgia Tech.">
     </head>
 
