@@ -3,8 +3,8 @@
     
     <head>
         <?php include "head.html"; ?>
-        <title>Students Consulting for Nonprofit Organizations - Apply</title>
-        <meta name="description" content="Apply to join Students Consulting for Nonprofit Organizations at Georgia Tech.">
+        <title>Students Consulting for Nonprofit Organizations - Info</title>
+        <meta name="description" content="Get information on join Students Consulting for Nonprofit Organizations at Georgia Tech.">
     </head>
 
     <body>
@@ -15,7 +15,7 @@
 
             <div class ="ui text container apply">
                 <div class="ui horizontal divider">
-                    <h1>Apply</h1>
+                    <h1>Info</h1>
                 </div>
                 <p>Apply for an analyst position for our Fall 2018 Client Projects!</p>
                 <p><a href = https://docs.google.com/forms/d/e/1FAIpQLSckZEjcVeF_VHGCWSLNtJiLPW5NpPSnCCGYS5aHLqAdp6nuYQ/viewform> click here</a></p>
