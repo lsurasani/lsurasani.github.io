@@ -70,7 +70,7 @@
                         $rohil->title = 'Co-President';
                         $rohil->year = '3rd';
                         $rohil->major = 'Industrial Engineering';
-                        $rohil->imgsrc = 'pics/rohil.jpg';
+                        $rohil->imgsrc = 'pics/rohil.jpeg';
 
                         $sean = new Member();
                         $sean->name="Sean Chua";
