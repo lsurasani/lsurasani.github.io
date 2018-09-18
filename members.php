@@ -62,7 +62,7 @@
                         $ellen->title = 'Co-President';
                         $ellen->year = '3rd';
                         $ellen->major = 'Information Technology Management';
-                        $ellen->imgsrc = 'pics/ellen.jpg';
+                        $ellen->imgsrc = 'pics/ellen.JPG';
 
                         $rohil = new Member();
                         $rohil->name = 'Rohil Shah';
