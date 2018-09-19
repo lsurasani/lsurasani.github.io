@@ -60,7 +60,7 @@
                         $ellen->name = 'Ellen Pao';
                         $ellen->linkedin = 'https://www.linkedin.com/in/ellentpao/';
                         $ellen->title = 'Co-President';
-                        $ellen->year = '3rd';
+                        $ellen->year = '4th';
                         $ellen->major = 'Information Technology Management';
                         $ellen->imgsrc = 'pics/ellen.JPG';
 
@@ -68,7 +68,7 @@
                         $rohil->name = 'Rohil Shah';
                         $rohil->linkedin = '';
                         $rohil->title = 'Co-President';
-                        $rohil->year = '3rd';
+                        $rohil->year = '4th';
                         $rohil->major = 'Industrial Engineering';
                         $rohil->imgsrc = 'pics/rohil.jpeg';
 
@@ -85,14 +85,14 @@
                         $lynn->linkedin = '';
                         $lynn->title = "VP of Internal Affairs";
                         $lynn->major = "Industrial Engineering";
-                        $lynn->year = '2nd';
+                        $lynn->year = '3rd';
                         $lynn->imgsrc = "pics/noimage.jpg";
                         
                         $max = new Member();
                         $max->name = 'Max Massella';
                         $max->linkedin = '';
                         $max->title = 'VP of Professional Development';
-                        $max->year = '3rd';
+                        $max->year = '4th';
                         $max->major = 'Industrial Engineering';
                         $max->imgsrc = 'pics/max.jpeg';
                     
@@ -101,7 +101,7 @@
                         $ronak->name = 'Max Massella';
                         $ronak->linkedin = '';
                         $ronak->title = 'VP of Professional Development';
-                        $ronak->year = '3rd';
+                        $ronak->year = '4th';
                         $ronak->major = 'Industrial Engineering';
                         $ronak->imgsrc = '';
                          
@@ -110,7 +110,7 @@
                         $sam->linkedin = '';
                         $sam->title = 'VP of Marketing and Recruitment';
                         $sam->major = 'Industrial Engineering';
-                        $sam->year = '2nd';
+                        $sam->year = '3rd';
                         $sam->imgsrc = 'pics/sam.jpeg';
                       
     
@@ -119,7 +119,7 @@
                         $kexin->linkedin = '';
                         $kexin->title = 'VP of Marketing and Recruitment';
                         $kexin->major = 'Industrial Engineering';
-                        $kexin->year = '2nd';
+                        $kexin->year = '3rd';
                         $kexin->imgsrc = '';
 
                
