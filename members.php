@@ -76,7 +76,7 @@
                         $sean->name="Sean Chua";
                         $sean->linkedin = '';
                         $sean->title = 'VP of Internal Affairs';
-                        $sean->year = '2nd';
+                        $sean->year = '3rd';
                         $sean->major = 'Industrial Engineering';
                         $sean->imgsrc="pics/sean.jpeg";
      
