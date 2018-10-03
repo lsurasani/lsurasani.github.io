@@ -15,7 +15,7 @@
 
             <div class="ui container">
                 <div class="ui horizontal divider">
-                    <h1>Our Clients</h1>
+                    <h1>Our Past Clients</h1>
                 </div>
                 <div class="projects">
                     <div class="ui cards">
