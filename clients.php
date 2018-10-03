@@ -80,7 +80,7 @@
                             $adc->description = "Partnered with Atlanta Dream Center, H.O.P.E Central provides an educational alternative to the bottom-ranked schools in the Atlanta School District around the Old Gordon neighborhood. Georgia Tech’s chapter of SCNO spearheaded an engagement with the program to streamline the budget, mobilize volunteer resources, and acquire funding and supplies necessary for education. H.O.P.E Central is able to launch its initiative on schedule in August 2017 due to the recommendations and analyses the SCNO team provided.";
                       
                             $midwest = new Project();
-                            $midwest->logo = "pics/widwest.jpg";
+                            $midwest->logo = "pics/midwest.jpg";
                             $midwest->name = "Midwest Food Bank";
                             $midwest->description = "Midwest Food Bank currently distributes over $13.2 million worth of food to over 1400 non-profits each month. We stand ready for disaster relief efforts and can get food-filled relief boxes to those in need, within 24 hours. Thanks to the generosity of our donors, the valuable work of our volunteers, and most importantly, the blessings of God, Midwest Food Bank now shares the blessings worldwide. $158 million worth of food was distributed in 2017.";
                         
