@@ -11,13 +11,10 @@
         <?php include_once("analyticstracking.php") ?>
 
         <div class="main">
-            <?php include "nav.html"; ?>
-            <div class="ui horizontal divider">
-                <h1> Our Clients </h1>
-            </div>
+            <?php include "nav.html"; ?>  
             <div class="ui container">
                 <div class="ui horizontal divider">
-                    <h1>Our Past Clients</h1>
+                    <h1>Our Clients</h1>
                 </div>
                 <div class="projects">
                     <div class="ui cards">
@@ -81,7 +78,10 @@
                             $adc->logo = "pics/adc.png";
                             $adc->name = "Atlanta Dream Center";
                             $adc->description = "Partnered with Atlanta Dream Center, H.O.P.E Central provides an educational alternative to the bottom-ranked schools in the Atlanta School District around the Old Gordon neighborhood. Georgia Tech’s chapter of SCNO spearheaded an engagement with the program to streamline the budget, mobilize volunteer resources, and acquire funding and supplies necessary for education. H.O.P.E Central is able to launch its initiative on schedule in August 2017 due to the recommendations and analyses the SCNO team provided.";
-
+                            
+            
+                        
+    
                             $projects = array($adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
