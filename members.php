@@ -110,7 +110,7 @@
                         $sam->linkedin = '';
                         $sam->title = 'VP of Marketing and Recruitment';
                         $sam->major = 'Industrial Engineering';
-                        $sam->year = '3rd';
+                        $sam->year = '4th';
                         $sam->imgsrc = 'pics/sam.jpeg';
                       
     
