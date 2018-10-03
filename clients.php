@@ -86,7 +86,7 @@
             
                         
     
-                            $projects = array($midwest, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $projects = array($adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
