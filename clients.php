@@ -104,7 +104,7 @@
                             $cityof->name = "City of Refuge";
                             $cityof->description = "Through supportive services fueled by innovation and a collective impact approach, City of Refuge seeks to lead individuals and families on a journey to self-sufficiency for generations to come.";
                         
-                            $projects = array($break, $midwest, $maclab, $cityof, $break, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $projects = array($ebwa, $break, $midwest, $maclab, $cityof, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
