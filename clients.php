@@ -88,8 +88,23 @@
                             $maclab->logo = "pics/maclab.png";
                             $maclab->name = "MacLab Bakery & Cafe";
                             $maclab->description = "MacLab Bakery & Cafe is a locally owned small business in Duluth. They specialize in hand-crafting french macarons. Their seasoned macaron bakers are classically trained at the Culinary Institute of America specializing in French Pastries. Combining technical skill with experimentation, Mac Lab was born. They emphasize trying out new tastes and ingredient combinations while using classical techniques.";
+                            
+                            $break = new Project();
+                            $break->logo = "pics/breakaway.jpg";
+                            $break->name = "Break Away";
+                            $break->description = "Break Away is a non-profit that provides alternative breaks (trips where a group of college students engage in direct service). They currently have a network of over 200 chapter schools, more than 700 community organization partners, and thousands of alternative break alumni worldwide. As true believers in the power of positive change, Break Away is proud of their own growth and transformation over the years.";
+                            
+                            $ebwa = new Project();
+                            $ebwa->logo = "pics/everybodywins.jpg";
+                            $ebwa->name = "Everybody Wins! Atlanta";
+                            $ebwa->description = " Everybody Wins! Atlanta is nonprofit organization on a mission to improve children's literacy and develop the reading skills of students in low-income elementary schools through shared reading experiences.";
                         
-                            $projects = array($midwest, $maclab, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $cityof = new Project();
+                            $cityof->logo = "pics/cityofrefuge.jpg";
+                            $cityof->name = "City of Refuge";
+                            $cityof->description = "Through supportive services fueled by innovation and a collective impact approach, City of Refuge seeks to lead individuals and families on a journey to self-sufficiency for generations to come.";
+                        
+                            $projects = array($break, $midwest, $maclab, $cityof, $break, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
