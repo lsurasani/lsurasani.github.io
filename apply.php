@@ -17,7 +17,7 @@
                 <div class="ui horizontal divider">
                     <h1>Info</h1>
                 </div>
-                <p> Our Fall 2018 applications have closed </p>
+                <p> Our Fall 2018 applications have closed. Please check back for Spring 2019 applications in January 2019!</p>
             </div>
 
             <?php include "footer.html"; ?>
