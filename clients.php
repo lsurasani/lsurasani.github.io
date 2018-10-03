@@ -83,8 +83,13 @@
                             $midwest->logo = "pics/midwest.jpg";
                             $midwest->name = "Midwest Food Bank";
                             $midwest->description = "Midwest Food Bank currently distributes over $13.2 million worth of food to over 1400 non-profits each month. We stand ready for disaster relief efforts and can get food-filled relief boxes to those in need, within 24 hours. Thanks to the generosity of our donors, the valuable work of our volunteers, and most importantly, the blessings of God, Midwest Food Bank now shares the blessings worldwide. $158 million worth of food was distributed in 2017.";
+                            
+                            $maclab = new Project();
+                            $maclab->logo = "pics/maclab.png";
+                            $maclab->name = "MacLab Bakery & Cafe";
+                            $maclab->description = "MacLab Bakery & Cafe is a locally owned small business in Duluth. They specialize in hand-crafting french macarons. Their seasoned macaron bakers are classically trained at the Culinary Institute of America specializing in French Pastries. Combining technical skill with experimentation, Mac Lab was born. They emphasize trying out new tastes and ingredient combinations while using classical techniques.";
                         
-                            $projects = array($midwest, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $projects = array($midwest, $maclab, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
