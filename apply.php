@@ -17,7 +17,8 @@
                 <div class="ui horizontal divider">
                     <h1>Info</h1>
                 </div>
-                <p> Sign up for spots in our Case Interview Workshop held by Capgemini! November 9th @9am - 12pm</p>
+                <p> Sign up <a href = "https://docs.google.com/forms/d/e/1FAIpQLSes60DGrAqwKeUeGeGf4oylmcswUgBByqaDAuhtoGRXNYgL3A/viewform" target="_blank">here</a> for spots in our Case Interview Workshop held by Capgemini! </p>
+                <p> November 9th @9am - 12pm</p>
             </div>
 
             <?php include "footer.html"; ?>
