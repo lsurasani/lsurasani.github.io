@@ -17,7 +17,7 @@
                 <div class="ui horizontal divider">
                     <h1>Info</h1>
                 </div>
-                <p> Our Fall 2018 applications have closed. Please check back for Spring 2019 applications in January 2019!</p>
+                <p> Sign up <a href ="https://docs.google.com/forms/d/e/1FAIpQLSes60DGrAqwKeUeGeGf4oylmcswUgBByqaDAuhtoGRXNYgL3A/viewform> here </a> for spots in our Case Interview Workshop held by Capgemini! November 9th @9am - 12pm</p>
             </div>
 
             <?php include "footer.html"; ?>
