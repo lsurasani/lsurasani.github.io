@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
         <?php include "head.html"; ?>
         <title>Students Consulting for Nonprofit Organizations - Apply</title>
@@ -17,13 +17,13 @@
                 <div class="ui horizontal divider">
                     <h1>Info</h1>
                 </div>
-                <p> Sign up <a href = "https://docs.google.com/forms/d/e/1FAIpQLSes60DGrAqwKeUeGeGf4oylmcswUgBByqaDAuhtoGRXNYgL3A/viewform" target="_blank">here</a> for spots in our Case Interview Workshop held by Capgemini! </p>
+                <p> Interested in being a key player at SCNO? Our mission is to support non-profits by providing high-quality, impact-driven strategic consulting so they can operate more effectively. SCNO also fosters member growth through corporate networking and leadership development events, and hands-on experience. SCNO is open to all students and majors who are passionate about serving others and taking their professional skills to the next level. We are currently looking to fill analyst and senior analyst positions for the Fall. Apply here<a href = "https://goo.gl/forms/ejHmLHt0RUAT5Nju1" target="_blank">Apply here</a> by January 18th. </p>
                 <p> November 9th @9am - 12pm</p>
             </div>
 
             <?php include "footer.html"; ?>
         </div>
-        
+
         <?php include "scripts.html"; ?>
     </body>
 
