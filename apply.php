@@ -17,7 +17,7 @@
                 <div class="ui horizontal divider">
                     <h1>Info</h1>
                 </div>
-                <p>Stop in anytime between 6-7pm on Wednesday, January 15th in the Instructional Center room 103 and mingle with our current exec board to learn more about our mission, clients, workshops, and other opportunities before applications are due.</p>
+                <p>Stop in anytime between 6-7pm on Wednesday, January 16th in the Instructional Center room 103 and mingle with our current exec board to learn more about our mission, clients, workshops, and other opportunities before applications are due.</p>
                 <br></br>
                 <p> We will be having a coffee chat at the Culc Starbucks on Thursday, January 17th from 11AM-1PM. Drop by between classes to ask any questions about our organization and hear our members' experiences from the Fall to see if SCNO is the right fit for you before applications close on Friday. </p>
                 <br></br>
