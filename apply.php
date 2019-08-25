@@ -17,11 +17,11 @@
                 <div class="ui horizontal divider">
                     <h1>Info</h1>
                 </div>
-                <p>Stop in anytime between 6-7pm on Wednesday, January 16th in the Instructional Center room 103 and mingle with our current exec board to learn more about our mission, clients, workshops, and other opportunities before applications are due.</p>
+              
                 <br></br>
-                <p> We will be having a coffee chat at the Culc Starbucks on Thursday, January 17th from 11AM-1PM. Drop by between classes to ask any questions about our organization and hear our members' experiences from the Fall to see if SCNO is the right fit for you before applications close on Friday. </p>
+                
                 <br></br>
-                <p> Interested in being a key player at SCNO? Our mission is to support non-profits by providing high-quality, impact-driven strategic consulting so they can operate more effectively. SCNO also fosters member growth through corporate networking and leadership development events, and hands-on experience. SCNO is open to all students and majors who are passionate about serving others and taking their professional skills to the next level. We are currently looking to fill analyst and senior analyst positions for the Spring.<a href = "https://goo.gl/forms/ejHmLHt0RUAT5Nju1" target="_blank"> Apply here</a> by January 18th. </p>
+                <p> Interested in being a key player at SCNO? Our mission is to support non-profits by providing high-quality, impact-driven strategic consulting so they can operate more effectively. SCNO also fosters member growth through corporate networking and leadership development events, and hands-on experience. SCNO is open to all students and majors who are passionate about serving others and taking their professional skills to the next level. We are currently looking to fill analyst and senior analyst positions for the Fall.<a href = "https://forms.gle/DKo8Tt7jxucmnUfu7" target="_blank"> Apply here</a> by September 1. </p>
             </div>
 
             <?php include "footer.html"; ?>
