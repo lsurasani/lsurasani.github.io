@@ -20,7 +20,7 @@
                 <br></br>
             <p> Interested in being a key player at SCNO? </p>
             <p> Our mission is to support non-profits by providing high-quality, impact-driven strategic consulting so they can operate more effectively. SCNO also fosters member growth through corporate networking and leadership development events, and hands-on experience. SCNO is open to all students and majors who are passionate about serving others and taking their professional skills to the next level. We are currently looking to fill analyst, senior analyst, and team lead positions for the Fall. </p>
-            <br></br>
+            
             <p> <a href = "https://forms.gle/DKo8Tt7jxucmnUfu7" target="_blank"> Apply here</a> by September 1. </p>
             </div>
 
