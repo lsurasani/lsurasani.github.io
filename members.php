@@ -70,7 +70,7 @@
                         $tejas->title = 'VP of Internal Affairs';
                         $tejas->year = '2nd';
                         $tejas->major = 'Industrial Engineering';
-                        $tejasn->imgsrc="pics/sean.jpeg";
+                        $tejasn->imgsrc="pics/tejas.jpeg";
 
                         $suma = new Member();
                         $suma->name = "Suma Gangasani";
