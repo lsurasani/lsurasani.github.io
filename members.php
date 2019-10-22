@@ -46,7 +46,7 @@
                     <h1>Executive Board</h1>
                 </div>
                 <div class="ui exec-board">
-                    <?php 
+                    <?php
                         class Member {
                             public $name;
                             public $linkedin;
@@ -56,75 +56,41 @@
                             public $imgsrc;
                         }
 
-                        $ellen = new Member();
-                        $ellen->name = 'Ellen Pao';
-                        $ellen->linkedin = 'https://www.linkedin.com/in/ellentpao/';
-                        $ellen->title = 'Co-President';
-                        $ellen->year = '4th';
-                        $ellen->major = 'Information Technology Management';
-                        $ellen->imgsrc = 'pics/ellen.JPG';
-
-                        $rohil = new Member();
-                        $rohil->name = 'Rohil Shah';
-                        $rohil->linkedin = '';
-                        $rohil->title = 'Co-President';
-                        $rohil->year = '4th';
-                        $rohil->major = 'Industrial Engineering';
-                        $rohil->imgsrc = 'pics/rohil.jpeg';
-
                         $sean = new Member();
-                        $sean->name="Sean Chua";
-                        $sean->linkedin = '';
-                        $sean->title = 'VP of Internal Affairs';
-                        $sean->year = '3rd';
-                        $sean->major = 'Industrial Engineering';
-                        $sean->imgsrc="pics/sean.jpeg";
-     
-                        $lynn = new Member();
-                        $lynn->name = "Sean Chua";
-                        $lynn->linkedin = '';
-                        $lynn->title = "VP of Internal Affairs";
-                        $lynn->major = "Industrial Engineering";
-                        $lynn->year = '3rd';
-                        $lynn->imgsrc = "pics/noimage.jpg";
-                        
-                        $max = new Member();
-                        $max->name = 'Max Massella';
-                        $max->linkedin = '';
-                        $max->title = 'VP of Professional Development';
-                        $max->year = '4th';
-                        $max->major = 'Industrial Engineering';
-                        $max->imgsrc = 'pics/max.jpeg';
-                    
+                        $sean->name = 'Sean Chua';
+                        $sean->linkedin = 'https://www.linkedin.com/in/seanchua1/';
+                        $sean->title = 'President';
+                        $sean->year = '4th';
+                        $sean->major = 'Industrial Engneering';
+                        $sean->imgsrc = 'pics/sean.jpeg';
 
-                        $ronak = new Member();
-                        $ronak->name = 'Max Massella';
-                        $ronak->linkedin = '';
-                        $ronak->title = 'VP of Professional Development';
-                        $ronak->year = '4th';
-                        $ronak->major = 'Industrial Engineering';
-                        $ronak->imgsrc = '';
-                         
-                        $sam = new Member();
-                        $sam->name = 'Sam Bluth';
-                        $sam->linkedin = '';
-                        $sam->title = 'VP of Marketing and Recruitment';
-                        $sam->major = 'Industrial Engineering';
-                        $sam->year = '3rd';
-                        $sam->imgsrc = 'pics/sam.jpeg';
-                      
-    
-                        $kexin = new Member();
-                        $kexin->name = 'Sam Bluth';
-                        $kexin->linkedin = '';
-                        $kexin->title = 'VP of Marketing and Recruitment';
-                        $kexin->major = 'Industrial Engineering';
-                        $kexin->year = '3rd';
-                        $kexin->imgsrc = '';
+                        $tejas = new Member();
+                        $tejas->name="Tejas Santanam";
+                        $tejas->linkedin = 'https://www.linkedin.com/in/tejas-santanam-462251171';
+                        $tejas->title = 'VP of Internal Affairs';
+                        $tejas->year = '2nd';
+                        $tejas->major = 'Industrial Engineering';
+                        $tejasn->imgsrc="pics/sean.jpeg";
 
-               
+                        $suma = new Member();
+                        $suma->name = "Suma Gangasani";
+                        $suma->linkedin = 'https://www.linkedin.com/in/suma-gangasani/ ';
+                        $suma->title = "VP of Projects";
+                        $suma->major = "Industrial Engineering";
+                        $suma->year = '2nd';
+                        $suma->imgsrc = "pics/suma.jpg";
 
-                        $execMembers = array($ellen, $rohil, $sam, $max, $sean);
+                        $roshan = new Member();
+                        $roshan->name = 'Roshan Soni';
+                        $roshan->linkedin = 'https://www.linkedin.com/in/roshan-soni-gt/';
+                        $roshan->title = 'VP of External Affairs';
+                        $roshan->year = '2nd';
+                        $roshan->major = 'Industrial Engineering';
+                        $roshan->imgsrc = "pics/roshan.jpg";
+
+
+
+                        $execMembers = array($sean, $tejas, $suma, $roshan);
 
                         echo '<div class="ui cards">';
 
