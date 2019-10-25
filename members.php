@@ -88,9 +88,19 @@
                         $roshan->major = 'Industrial Engineering';
                         $roshan->imgsrc = "pics/roshan.jpg";
 
+						$colin = new Member();
+                        $colin->name = 'Colin Elliot';
+                        $colin->linkedin = 'https://www.linkedin.com/in/colin-elliott-660bb8140';
+                        $colin->title = 'VP of Marketing';
+                        $colin->year = '4th';
+                        $colin->major = 'Mechanical Engineering';
+                        $colin->imgsrc = "pics/colin.jpg";
 
 
-                        $execMembers = array($sean, $tejas, $suma, $roshan);
+
+
+
+                        $execMembers = array($sean, $tejas, $suma, $roshan, $colin);
 
                         echo '<div class="ui cards">';
 
