@@ -94,7 +94,7 @@
                         $colin->title = 'VP of Marketing';
                         $colin->year = '4th';
                         $colin->major = 'Mechanical Engineering';
-                        $colin->imgsrc = "pics/colin.jpg";
+                        $colin->imgsrc = "pics/colin.JPG";
 
 
 
