@@ -77,7 +77,7 @@
                         $suma->linkedin = 'https://www.linkedin.com/in/suma-gangasani/ ';
                         $suma->title = "VP of Projects";
                         $suma->major = "Industrial Engineering";
-                        $suma->year = '2nd';
+                        $suma->year = '3rd';
                         $suma->imgsrc = "pics/suma.jpg";
 
                         $roshan = new Member();
