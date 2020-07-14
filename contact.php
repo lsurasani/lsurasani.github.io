@@ -16,7 +16,7 @@
                 <div class="ui horizontal divider">
                     <h1>Contact Us</h1>
                 </div>
-                <p>You can contact us through <a href="mailto:scnogt@gmail.com">email</a>, our <a href = "https://www.facebook.com/SCNOGT/" target="_blank">Facebook</a> page, or the form below. </p>
+                <p>You can contact us through <a href="mailto:scnogt@gmail.com">email</a>, our <a href = "https://www.facebook.com/SCNOGT/" target="_blank">Facebook</a> page, our <a href = "https://www.instagram.com/scno_gt/" target="_blank">Instagram</a> page, or the form below. </p>
                 <form action="https://formspree.io/scnogt@gmail.com" method="POST" class="ui form" role="form">
                     <div class="field">
                         <label for="name">Name</label>
