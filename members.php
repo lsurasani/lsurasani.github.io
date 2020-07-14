@@ -56,13 +56,13 @@
                             public $imgsrc;
                         }
 
-                        $sean = new Member();
-                        $sean->name = 'Suma Gangasani';
-                        $sean->linkedin = 'https://www.linkedin.com/in/suma-gangasani/';
-                        $sean->title = 'President';
-                        $sean->year = '4th';
-                        $sean->major = 'Industrial Engneering';
-                        $sean->imgsrc = 'pics/Suma2.jpg';
+                        $suma = new Member();
+                        $suma->name = 'Suma Gangasani';
+                        $suma->linkedin = 'https://www.linkedin.com/in/suma-gangasani/';
+                        $suma->title = 'President';
+                        $suma->year = '4th';
+                        $suma->major = 'Industrial Engneering';
+                        $suma->imgsrc = 'pics/Suma2.jpg';
 
                         $tejas = new Member();
                         $tejas->name="Tejas Santanam";
@@ -72,29 +72,29 @@
                         $tejas->major = 'Industrial Engineering';
                         $tejas->imgsrc="pics/tejas.jpeg";
 
-                        $suma = new Member();
-                        $suma->name = "Colin Elliot";
-                        $suma->linkedin = 'https://www.linkedin.com/in/colin-elliott-660bb8140';
-                        $suma->title = "VP of Projects";
-                        $suma->major = "Mechanical Engineering";
-                        $suma->year = '5th';
-                        $suma->imgsrc = "pics/colin.JPG";
+                        $colin = new Member();
+                        $colin->name = "Colin Elliot";
+                        $colin->linkedin = 'https://www.linkedin.com/in/colin-elliott-660bb8140';
+                        $colin->title = "VP of Projects";
+                        $colin->major = "Mechanical Engineering";
+                        $colin->year = '5th';
+                        $colin->imgsrc = "pics/colin.JPG";
 
-                        $roshan = new Member();
-                        $roshan->name = 'Eeshanee Tripathy';
-                        $roshan->linkedin = 'https://www.linkedin.com/in/eeshanee-tripathy-6a945b192/';
-                        $roshan->title = 'VP of External Affairs';
-                        $roshan->year = '3rd';
-                        $roshan->major = 'Industrial Engineering';
-                        $roshan->imgsrc = "pics/Eeshanee.jpg";
+                        $eeshanee = new Member();
+                        $eeshanee->name = 'Eeshanee Tripathy';
+                        $eeshanee->linkedin = 'https://www.linkedin.com/in/eeshanee-tripathy-6a945b192/';
+                        $eeshanee->title = 'VP of External Affairs';
+                        $eeshanee->year = '3rd';
+                        $eeshanee->major = 'Industrial Engineering';
+                        $eeshanee->imgsrc = "pics/Eeshanee.jpg";
 
-			$colin = new Member();
-                        $colin->name = 'Aleysha Thomas';
-                        $colin->linkedin = 'https://www.linkedin.com/in/aleysha-thomas-748871152/';
-                        $colin->title = 'VP of Marketing';
-                        $colin->year = '4th';
-                        $colin->major = 'Industrial Engineering';
-                        $colin->imgsrc = "pics/Aleysha.JPG";
+			$aleysha = new Member();
+                        $aleysha->name = 'Aleysha Thomas';
+                        $aleysha->linkedin = 'https://www.linkedin.com/in/aleysha-thomas-748871152/';
+                        $aleysha->title = 'VP of Marketing';
+                        $aleysha->year = '4th';
+                        $aleysha->major = 'Industrial Engineering';
+                        $aleysha->imgsrc = "pics/Aleysha.JPG";
 
 
 
