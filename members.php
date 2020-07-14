@@ -78,7 +78,7 @@
                         $colin->title = "VP of Projects";
                         $colin->major = "Mechanical Engineering";
                         $colin->year = '5th';
-                        $colin->imgsrc = "pics/Colin2.JPG";
+                        $colin->imgsrc = "pics/Colin3.JPG";
 
                         $eeshanee = new Member();
                         $eeshanee->name = 'Eeshanee Tripathy';
