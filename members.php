@@ -86,7 +86,7 @@
                         $eeshanee->title = 'VP of External Affairs';
                         $eeshanee->year = '3rd';
                         $eeshanee->major = 'Industrial Engineering';
-                        $eeshanee->imgsrc = "pics/Eeshanee.jpg";
+                        $eeshanee->imgsrc = "pics/Eeshanee.JPG";
 
 			$aleysha = new Member();
                         $aleysha->name = 'Aleysha Thomas';
