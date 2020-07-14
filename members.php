@@ -62,7 +62,7 @@
                         $suma->title = 'President';
                         $suma->year = '4th';
                         $suma->major = 'Industrial Engneering';
-                        $suma->imgsrc = 'pics/Suma2.jpg';
+                        $suma->imgsrc = 'pics/Suma3.jpg';
 
                         $tejas = new Member();
                         $tejas->name="Tejas Santanam";
@@ -70,7 +70,7 @@
                         $tejas->title = 'VP of Internal Affairs';
                         $tejas->year = '3rd';
                         $tejas->major = 'Industrial Engineering';
-                        $tejas->imgsrc="pics/tejas.jpeg";
+                        $tejas->imgsrc="pics/Tejas2.jpeg";
 
                         $colin = new Member();
                         $colin->name = "Colin Elliot";
@@ -78,7 +78,7 @@
                         $colin->title = "VP of Projects";
                         $colin->major = "Mechanical Engineering";
                         $colin->year = '5th';
-                        $colin->imgsrc = "pics/colin.JPG";
+                        $colin->imgsrc = "pics/Colin2.JPG";
 
                         $eeshanee = new Member();
                         $eeshanee->name = 'Eeshanee Tripathy';
@@ -86,7 +86,7 @@
                         $eeshanee->title = 'VP of External Affairs';
                         $eeshanee->year = '3rd';
                         $eeshanee->major = 'Industrial Engineering';
-                        $eeshanee->imgsrc = "pics/Eeshanee.JPG";
+                        $eeshanee->imgsrc = "pics/Eeshanee2.JPG";
 
 			$aleysha = new Member();
                         $aleysha->name = 'Aleysha Thomas';
@@ -94,7 +94,7 @@
                         $aleysha->title = 'VP of Marketing';
                         $aleysha->year = '4th';
                         $aleysha->major = 'Industrial Engineering';
-                        $aleysha->imgsrc = "pics/Aleysha.JPG";
+                        $aleysha->imgsrc = "pics/Aleysha2.JPG";
 
 
 
