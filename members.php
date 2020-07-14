@@ -57,50 +57,50 @@
                         }
 
                         $sean = new Member();
-                        $sean->name = 'Sean Chua';
-                        $sean->linkedin = 'https://www.linkedin.com/in/seanchua1/';
+                        $sean->name = 'Suma Gangasani';
+                        $sean->linkedin = 'https://www.linkedin.com/in/suma-gangasani/';
                         $sean->title = 'President';
                         $sean->year = '4th';
                         $sean->major = 'Industrial Engneering';
-                        $sean->imgsrc = 'pics/sean.jpeg';
+                        $sean->imgsrc = 'pics/Suma2.jpg';
 
                         $tejas = new Member();
                         $tejas->name="Tejas Santanam";
                         $tejas->linkedin = 'https://www.linkedin.com/in/tejas-santanam-462251171';
                         $tejas->title = 'VP of Internal Affairs';
-                        $tejas->year = '2nd';
+                        $tejas->year = '3rd';
                         $tejas->major = 'Industrial Engineering';
                         $tejas->imgsrc="pics/tejas.jpeg";
 
                         $suma = new Member();
-                        $suma->name = "Suma Gangasani";
-                        $suma->linkedin = 'https://www.linkedin.com/in/suma-gangasani/ ';
+                        $suma->name = "Colin Elliot";
+                        $suma->linkedin = 'https://www.linkedin.com/in/colin-elliott-660bb8140';
                         $suma->title = "VP of Projects";
-                        $suma->major = "Industrial Engineering";
-                        $suma->year = '3rd';
-                        $suma->imgsrc = "pics/suma.jpg";
+                        $suma->major = "Mechanical Engineering";
+                        $suma->year = '5th';
+                        $suma->imgsrc = "pics/colin.JPG";
 
                         $roshan = new Member();
-                        $roshan->name = 'Roshan Soni';
-                        $roshan->linkedin = 'https://www.linkedin.com/in/roshan-soni-gt/';
+                        $roshan->name = 'Eeshanee Tripathy';
+                        $roshan->linkedin = 'https://www.linkedin.com/in/eeshanee-tripathy-6a945b192/';
                         $roshan->title = 'VP of External Affairs';
-                        $roshan->year = '2nd';
+                        $roshan->year = '3rd';
                         $roshan->major = 'Industrial Engineering';
-                        $roshan->imgsrc = "pics/roshan.jpg";
+                        $roshan->imgsrc = "pics/Eeshanee.jpg";
 
-						$colin = new Member();
-                        $colin->name = 'Colin Elliot';
-                        $colin->linkedin = 'https://www.linkedin.com/in/colin-elliott-660bb8140';
+			$colin = new Member();
+                        $colin->name = 'Aleysha Thomas';
+                        $colin->linkedin = 'https://www.linkedin.com/in/aleysha-thomas-748871152/';
                         $colin->title = 'VP of Marketing';
                         $colin->year = '4th';
-                        $colin->major = 'Mechanical Engineering';
-                        $colin->imgsrc = "pics/colin.JPG";
+                        $colin->major = 'Industrial Engineering';
+                        $colin->imgsrc = "pics/Aleysha.JPG";
 
 
 
 
 
-                        $execMembers = array($sean, $tejas, $suma, $roshan, $colin);
+                        $execMembers = array($suma, $tejas, $colin, $eeshanee, $aleysha);
 
                         echo '<div class="ui cards">';
 
