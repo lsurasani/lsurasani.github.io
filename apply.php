@@ -19,9 +19,9 @@
                 </div>
                 <br></br>
             <p> Interested in being a key player at SCNO? </p>
-            <p> Our mission is to support non-profits by providing high-quality, impact-driven strategic consulting so they can operate more effectively. SCNO also fosters member growth through corporate networking and leadership development events, and hands-on experience. SCNO is open to all students and majors who are passionate about serving others and taking their professional skills to the next level. We are currently looking to fill analyst, senior analyst, and team lead positions for the Fall. </p>
-            <p> Check back here soon for our official application to join for the Fall 2020 semester. </p>
-          <!-- <p> <a href = "https://forms.gle/PRJK1UJp43J4nSjw6" target="_blank"> Apply here</a> by January 17. </p> -->
+            <p> Our mission is to support non-profits by providing high-quality, impact-driven strategic consulting so they can operate more effectively. SCNO also fosters member growth through corporate networking and leadership development events, and hands-on experience. SCNO is open to all students and majors who are passionate about serving others and taking their professional skills to the next level. We are currently looking to fill business analyst and team lead positions. </p>
+            <p> Applications are now live to join SCNO for the Fall 2020 semester! </p>
+            <p> <a href = "https://forms.gle/b2cjfryK96GidLaz8" target="_blank"> Apply here</a> by August 23. </p> 
             </div>
 
             <?php include "footer.html"; ?>
