@@ -61,7 +61,7 @@
                         $suma->linkedin = 'https://www.linkedin.com/in/suma-gangasani/';
                         $suma->title = 'President';
                         $suma->year = '4th';
-                        $suma->major = 'Industrial Engneering';
+                        $suma->major = 'Industrial Engineering';
                         $suma->imgsrc = 'pics/Suma3.jpg';
 
                         $tejas = new Member();
