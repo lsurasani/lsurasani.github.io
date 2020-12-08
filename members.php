@@ -72,13 +72,13 @@
                         $tejas->major = 'Industrial Engineering';
                         $tejas->imgsrc="pics/Tejas2.jpeg";
 
-                        $colin = new Member();
-                        $colin->name = "Colin Elliot";
-                        $colin->linkedin = 'https://www.linkedin.com/in/colin-elliott-660bb8140';
-                        $colin->title = "VP of Projects";
-                        $colin->major = "Mechanical Engineering";
-                        $colin->year = '5th';
-                        $colin->imgsrc = "pics/Colin3.JPG";
+                        $carter = new Member();
+                        $carter->name = "Carter Gooch";
+                        $carter->linkedin = 'https://www.linkedin.com/in/goochcarter/';
+                        $carter->title = "VP of Projects";
+                        $carter->major = "Business Administration - Strategy and Innovation";
+                        $carter->year = '3rd';
+                        $carter->imgsrc = "pics/Carter.png";
 
                         $eeshanee = new Member();
                         $eeshanee->name = 'Eeshanee Tripathy';
@@ -100,7 +100,7 @@
 
 
 
-                        $execMembers = array($suma, $tejas, $colin, $eeshanee, $aleysha);
+                        $execMembers = array($suma, $tejas, $carter, $eeshanee, $aleysha);
 
                         echo '<div class="ui cards">';
 
