@@ -76,7 +76,7 @@
                         $carter->name = "Carter Gooch";
                         $carter->linkedin = 'https://www.linkedin.com/in/goochcarter/';
                         $carter->title = "VP of Projects";
-                        $carter->major = "Business Administration - Strategy and Innovation";
+                        $carter->major = "Business Administration";
                         $carter->year = '3rd';
                         $carter->imgsrc = "pics/Carter.png";
 
