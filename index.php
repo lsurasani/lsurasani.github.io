@@ -15,8 +15,8 @@
             <?php include "nav.html"; ?>
             <div class="ui vertical segment pic-header">
                 <div class="header">
-                    <h1>Students Consulting for Nonprofit Organizations</h1>
-                    <h2>At Georgia Tech</h2>
+                    <h1 style="font-size: 27px;">Students Consulting for Nonprofit Organizations</h1>
+                    <h2 style="font-size: 25px;">At Georgia Tech</h2>
                 </div>
             </div>
             <div class="ui vertical segment">
