@@ -24,7 +24,7 @@
                 </div>
                 <div class="ui item">
                     <h3>Developing Leaders</h3>
-                    <img class="ui medium right floated image transition visible" src="pics/org2.png" width="175" alt="Diagram of SCNO's team structure">
+                    <img class="ui medium right floated image transition visible" src="pics/org2.png" width="100" alt="Diagram of SCNO's team structure">
                     <p>Through SCNO, our members gain rewarding, real world experience in interacting with clients, completing projects, and applying problem solving skills. Each member is placed on a project in a role that best matches their skill level. The structure of the organization allows for members to quickly gain leadership skills. We also encourage our members to grow professionally by hosting resume, interview, and case question prep workshops.</p>
                 </div>
                 <div class="ui item">

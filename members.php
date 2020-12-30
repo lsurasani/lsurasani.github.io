@@ -115,8 +115,6 @@
                             echo '</div>';
                         }
 
-                        echo '</div>';
-
                         foreach($execMembers2 as $execMember) {
                             $linkedin_icon = '';
                             if (!empty($execMember->linkedin)) {
