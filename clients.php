@@ -16,6 +16,7 @@
                 <div class="ui horizontal divider">
                     <h1>Our Clients</h1>
                 </div>
+                <h4>Some of our past engagements include: </h4>
                 <div class="projects">
                     <div class="ui cards">
                         <?php 
@@ -24,6 +25,21 @@
                                 public $name;
                                 public $description;
                             }
+
+                            $asf = new Project();
+                            $asf->logo = "pics/asf.png";
+                            $asf->name = "Alchemy Sky Foundation";
+                            $asf->description = "Alchemy Sky Foundation is a nonprofit organization based out of Atlanta that is centered around supporting veterans through the power of music. SCNO worked with the Alchemy Sky Foundation to deploy new fundraising strategies and develop long-lasting relationships with local organizations. Additionally, SCNO devised a strategy to increase Alchemy Sky’s social media presence.";
+
+                            $atlm = new Project();
+                            $atlm->logo = "pics/atlmission.png";
+                            $atlm->name = "Atlanta Mission";
+                            $atlm->description = "Atlanta Mission is the city’s largest and longest-running provider of services to homeless men, women and children and invests in the spiritual, personal, and professional development of people, restoring and equipping them to intentional living. SCNO proposed a streamlined redesign for Atlanta Mission’s in-kind donation process that involves electronically logging and monitoring inventory levels in a donor database and immediately sending donors an automated receipt upon processing their donation.";
+
+                            $atlm = new Project();
+                            $atlm->logo = "pics/CCSI.jpg";
+                            $atlm->name = "Atlanta Mission";
+                            $atlm->description = "Atlanta Mission is the city’s largest and longest-running provider of services to homeless men, women and children and invests in the spiritual, personal, and professional development of people, restoring and equipping them to intentional living. SCNO proposed a streamlined redesign for Atlanta Mission’s in-kind donation process that involves electronically logging and monitoring inventory levels in a donor database and immediately sending donors an automated receipt upon processing their donation.";
 
                             $ccsi = new Project();
                             $ccsi->logo = "pics/CCSI.jpg";
@@ -78,27 +94,7 @@
                             $adc->logo = "pics/adc.png";
                             $adc->name = "Atlanta Dream Center";
                             $adc->description = "Partnered with Atlanta Dream Center, H.O.P.E Central provides an educational alternative to the bottom-ranked schools in the Atlanta School District around the Old Gordon neighborhood. Georgia Tech’s chapter of SCNO spearheaded an engagement with the program to streamline the budget, mobilize volunteer resources, and acquire funding and supplies necessary for education. H.O.P.E Central is able to launch its initiative on schedule in August 2017 due to the recommendations and analyses the SCNO team provided.";
-                      
-                            $midwest = new Project();
-                            $midwest->logo = "pics/midwest.jpg";
-                            $midwest->name = "Midwest Food Bank";
-                            $midwest->description = "Midwest Food Bank currently distributes over $13.2 million worth of food to over 1400 non-profits each month. We stand ready for disaster relief efforts and can get food-filled relief boxes to those in need, within 24 hours. Thanks to the generosity of our donors, the valuable work of our volunteers, and most importantly, the blessings of God, Midwest Food Bank now shares the blessings worldwide. $158 million worth of food was distributed in 2017.";
-                            
-                            $maclab = new Project();
-                            $maclab->logo = "pics/maclab.png";
-                            $maclab->name = "MacLab Bakery & Cafe";
-                            $maclab->description = "MacLab Bakery & Cafe is a locally owned small business in Duluth. They specialize in hand-crafting french macarons. Their seasoned macaron bakers are classically trained at the Culinary Institute of America specializing in French Pastries. Combining technical skill with experimentation, Mac Lab was born. They emphasize trying out new tastes and ingredient combinations while using classical techniques.";
-                            
-                            $break = new Project();
-                            $break->logo = "pics/breakaway.jpg";
-                            $break->name = "Break Away";
-                            $break->description = "Break Away is a non-profit that provides alternative breaks (trips where a group of college students engage in direct service). They currently have a network of over 200 chapter schools, more than 700 community organization partners, and thousands of alternative break alumni worldwide. As true believers in the power of positive change, Break Away is proud of their own growth and transformation over the years.";
-                            
-                            $ebwa = new Project();
-                            $ebwa->logo = "pics/everybodywins.jpg";
-                            $ebwa->name = "Everybody Wins! Atlanta";
-                            $ebwa->description = " Everybody Wins! Atlanta is nonprofit organization on a mission to improve children's literacy and develop the reading skills of students in low-income elementary schools through shared reading experiences.";
-                        
+ 
                             $cityof = new Project();
                             $cityof->logo = "pics/cityofrefuge.jpg";
                             $cityof->name = "City of Refuge";
