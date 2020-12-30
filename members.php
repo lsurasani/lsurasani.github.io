@@ -88,7 +88,7 @@
                         $eeshanee->major = 'Industrial Engineering';
                         $eeshanee->imgsrc = "pics/Eeshanee2.JPG";
 
-			$aleysha = new Member();
+			            $aleysha = new Member();
                         $aleysha->name = 'Aleysha Thomas';
                         $aleysha->linkedin = 'https://www.linkedin.com/in/aleysha-thomas-748871152/';
                         $aleysha->title = 'VP of Marketing';
@@ -96,15 +96,28 @@
                         $aleysha->major = 'Industrial Engineering';
                         $aleysha->imgsrc = "pics/Aleysha2.JPG";
 
-
-
-
-
-                        $execMembers = array($suma, $tejas, $carter, $eeshanee, $aleysha);
+                        $execMembers = array($suma, $tejas, $carter);
+                        $execMembers2 = array($eeshanee, $aleysha);
 
                         echo '<div class="ui cards">';
 
                         foreach($execMembers as $execMember) {
+                            $linkedin_icon = '';
+                            if (!empty($execMember->linkedin)) {
+                                $linkedin_icon = '<a href="' . $execMember->linkedin . '" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>';
+                            }
+
+                            echo '<div class="card">';
+                            echo '<div class="image"><img src="' . $execMember->imgsrc . '" alt="SCNO executive board member: ' . $execMember->name . '"></div>';
+                            echo '<div class="content">';
+                            echo $execMember->name . $linkedin_icon . '<br>' . $execMember->year . ' Year, ' . $execMember->major . '<br>' . $execMember->title;
+                            echo '</div>';
+                            echo '</div>';
+                        }
+
+                        echo '</div>';
+
+                        foreach($execMembers2 as $execMember) {
                             $linkedin_icon = '';
                             if (!empty($execMember->linkedin)) {
                                 $linkedin_icon = '<a href="' . $execMember->linkedin . '" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>';
