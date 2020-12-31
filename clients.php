@@ -36,10 +36,15 @@
                             $atlm->name = "Atlanta Mission";
                             $atlm->description = "Atlanta Mission is the city’s largest and longest-running provider of services to homeless men, women and children and invests in the spiritual, personal, and professional development of people, restoring and equipping them to intentional living. SCNO proposed a streamlined redesign for Atlanta Mission’s in-kind donation process that involves electronically logging and monitoring inventory levels in a donor database and immediately sending donors an automated receipt upon processing their donation.";
 
-                            $atlm = new Project();
-                            $atlm->logo = "pics/CCSI.jpg";
-                            $atlm->name = "Atlanta Mission";
-                            $atlm->description = "Atlanta Mission is the city’s largest and longest-running provider of services to homeless men, women and children and invests in the spiritual, personal, and professional development of people, restoring and equipping them to intentional living. SCNO proposed a streamlined redesign for Atlanta Mission’s in-kind donation process that involves electronically logging and monitoring inventory levels in a donor database and immediately sending donors an automated receipt upon processing their donation.";
+                            $catp = new Project();
+                            $catp->logo = "pics/cp.png";
+                            $catp->name = "Caterpillar's Promise";
+                            $catp->description = "Caterpillar's Promise, Inc. is a nonprofit with a mission to motivate others, especially youth, to use their talents, such as Science, Technology, Engineering, the Arts, and Mathematics, for the greater good through service, seminars, and showcases. SCNO performed a visual redesign, revised the login system, and linked STEAM session videos to a real-time calendar on the Caterpillar’s Promise website. The team also created a Tableau dashboard to help Caterpillar’s Promise track and quantify the impact of their mentorship program.";
+                            
+                            $fk = new Project();
+                            $fk->logo = "pics/furkids.jpeg";
+                            $fk->name = "FurKids";
+                            $fk->description = "FurKids is a charitable organization that operates the largest cage-free, no-kill shelter in the Southeast for rescued cats and Sadie’s Place, a no-kill shelter for dogs. SCNO devised a marketing strategy to help FurKids with brand recognition to help differentiate them from competitors. The team also generated options for various programs Furkids could adopt to increase revenue via donations from corporate relationships.";
 
                             $ccsi = new Project();
                             $ccsi->logo = "pics/CCSI.jpg";
@@ -98,9 +103,9 @@
                             $cityof = new Project();
                             $cityof->logo = "pics/cityofrefuge.jpg";
                             $cityof->name = "City of Refuge";
-                            $cityof->description = "Through supportive services fueled by innovation and a collective impact approach, City of Refuge seeks to lead individuals and families on a journey to self-sufficiency for generations to come.";
+                            $cityof->description = "City of Refuge is a faith-based organization that helps individuals and families transition out of crisis through five key impact areas: anti-trafficking, health and wellness, housing, vocational training, and youth development.  SCNO performed a comprehensive donation analysis of both corporate and individual donors to identify trends in donor behavior that could be used to increase donor retention and aid marketing initiatives. The team also evaluated the company website and advised the creation of a recurrent donation option button on the donor portal, which has since been implemented.";
                         
-                            $projects = array($ebwa, $break, $midwest, $maclab, $cityof, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $projects = array($asf, $atlm, $cityof, $cp, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
