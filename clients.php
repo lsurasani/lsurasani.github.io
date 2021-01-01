@@ -45,7 +45,17 @@
                             $fk->logo = "pics/furkids.jpeg";
                             $fk->name = "FurKids";
                             $fk->description = "FurKids is a charitable organization that operates the largest cage-free, no-kill shelter in the Southeast for rescued cats and Sadie’s Place, a no-kill shelter for dogs. SCNO devised a marketing strategy to help FurKids with brand recognition to help differentiate them from competitors. The team also generated options for various programs Furkids could adopt to increase revenue via donations from corporate relationships.";
-
+                           
+                            $hh = new Project();
+                            $hh->logo = "pics/habitat.png";
+                            $hh->name = "Habitat for Humanity";
+                            $hh->description = "Habitat for Humanity is a global nonprofit housing organization working in local communities across all 50 states in the U.S. and in approximately 70 countries towards a vision of a world where everyone has a decent place to live. SCNO devised a marketing outreach plan to increase store traffic to the Atlanta Habitat for Humanity ReStore and recommended the addition of an incentive tracking system in Habitat for Humanity’s volunteer and donor database to increase volunteer count and contribution amounts.";
+                            
+                            $tsa = new Project();
+                            $tsa->logo = "pics/habitat.png";
+                            $tsa->name = "The Salvation Army";
+                            $tsa->description = "The Salvation Army is an international, faith-based organization that serves to meet human needs without discrimination and assists approximately 23 million Americans annually. SCNO identified the most productive locations, relationship between net income and days leading up to Christmas, optimal shift length, and relationship between weather and net income, and proposed an optimal start date for the Salvation Army’s seasonal Red Kettle Campaign in Metro Atlanta.";
+                           
                             $ccsi = new Project();
                             $ccsi->logo = "pics/CCSI.jpg";
                             $ccsi->name = "CCSI";
@@ -105,7 +115,7 @@
                             $cityof->name = "City of Refuge";
                             $cityof->description = "City of Refuge is a faith-based organization that helps individuals and families transition out of crisis through five key impact areas: anti-trafficking, health and wellness, housing, vocational training, and youth development.  SCNO performed a comprehensive donation analysis of both corporate and individual donors to identify trends in donor behavior that could be used to increase donor retention and aid marketing initiatives. The team also evaluated the company website and advised the creation of a recurrent donation option button on the donor portal, which has since been implemented.";
                         
-                            $projects = array($asf, $atlm, $cityof, $cp, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
+                            $projects = array($asf, $atlm, $cityof, $catp, $fk, $hh, $tsa, $adc, $gcn, $tephinet, $iws, $c21, $litehouse, $tfa, $ccsi, $pcrf, $ghf);
 
                             foreach($projects as $project) {
                                 echo '<div class="card">';
