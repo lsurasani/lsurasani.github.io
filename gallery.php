@@ -26,13 +26,25 @@
 
                             $fk = new Photo();
                             $fk->pic = "pics/gallery/IMG_5704.JPG";
-                            $fk->description = "FurKids Marketing Strategy Presentation"
+                            $fk->description = "FurKids Marketing Strategy Presentation";
 
                             $oh = new Photo();
                             $oh->pic = "pics/gallery/IMG_5703.JPG";
-                            $oh->description = "Our House Presentation"
+                            $oh->description = "Our House Presentation";
                         
-                            $photos = array($fk, $oh);
+                            $cac = new Photo();
+                            $cac->pic = "pics/gallery/IMG_7635.JPG";
+                            $cac->description = "Community Assistance Center Presentation";
+
+                            $mac = new Photo();
+                            $mac->pic = "pics/gallery/IMG_7636.JPG";
+                            $mac->description = "MAC LAB Presentation";
+
+                            $mfb = new Photo();
+                            $mfb->pic = "pics/gallery/IMG_7637.JPG";
+                            $mfb->description = "Midwest Food Bank Presentation";
+
+                            $photos = array($fk, $oh, $cac, $mac, $mfb);
 
                             foreach($photos as $photo) {
                                 echo '<div class="card">';
