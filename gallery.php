@@ -21,15 +21,22 @@
                         <?php 
                             class Photo {
                                 public $pic;
+                                public $description;
                             }
 
+                            $fk = new Photo();
+                            $fk->pic = "pics/gallery/IMG_5704.JPG";
+                            $fk->description = "FurKids Marketing Strategy Presentation"
+
+                            $oh = new Photo();
+                            $oh->pic = "pics/gallery/IMG_5703.JPG";
+                            $oh->description = "Our House Presentation"
                         
-                            $photos = array();
+                            $photos = array($fk, $oh);
 
                             foreach($photos as $photo) {
                                 echo '<div class="card">';
-                                echo '<div class="image"><img src="' . $project->logo . '" alt="' . $project->name .' logo"></div>';
-                                echo '<div class="content"><div class="header">' . $project->name . '</div><div class="description">' . $project->description . '</div></div>';
+                                echo '<div class="image"><img src="' . $project->pic . '" alt="' . $project->description .'"></div>';
                                 echo '</div>';
                             }
                         ?>
