@@ -25,23 +25,23 @@
                             }
 
                             $fk = new Photo();
-                            $fk->pic = "pics/gallery/IMG_5704.JPG";
+                            $fk->pic = "pics/IMG_5704.jpg";
                             $fk->description = "FurKids Marketing Strategy Presentation";
 
                             $oh = new Photo();
-                            $oh->pic = "pics/gallery/IMG_5703.JPG";
+                            $oh->pic = "pics/IMG_5703.jpg";
                             $oh->description = "Our House Presentation";
                         
                             $cac = new Photo();
-                            $cac->pic = "pics/gallery/IMG_7635.JPG";
+                            $cac->pic = "pics/IMG_7635.jpg";
                             $cac->description = "Community Assistance Center Presentation";
 
                             $mac = new Photo();
-                            $mac->pic = "pics/gallery/IMG_7636.JPG";
+                            $mac->pic = "pics/IMG_7636.jpg";
                             $mac->description = "MAC LAB Presentation";
 
                             $mfb = new Photo();
-                            $mfb->pic = "pics/gallery/IMG_7637.JPG";
+                            $mfb->pic = "pics/IMG_7637.jpg";
                             $mfb->description = "Midwest Food Bank Presentation";
 
                             $photos = array($fk, $oh, $cac, $mac, $mfb);
