@@ -61,14 +61,15 @@
                             $mac2->description = "MAC LAB Fall 2018 Presentation";
 
                             $cf = new Photo();
-                            $cf->pic = "pics/IMG_7642.jpg";
-                            $cf->description = "MAC LAB Fall 2018 Presentation";
+                            $cf->pic = "pics/IMG_7643.jpg";
+                            $cf->description = "City of Refuge Presentation";
 
-                            $photos = array($fk, $oh, $cac, $mac, $mfb, $team, $ew, $mfb2, $mac2);
+                            $photos = array($fk, $oh, $cac, $mac, $mfb, $team, $ew, $mfb2, $mac2, $cf);
 
                             foreach($photos as $photo) {
                                 echo '<div class="card">';
-                                echo '<div class="image"><img src="' . $project->pic . '" alt="' . $project->description .'"></div>';
+                                echo '<div class="image"><img src="' . $photo->pic . '" alt="' . $photo->description .' logo"></div>';
+                                echo '<div class="content"><div class="header">' . $photo->description . '</div><div class="description">' . $photo->description . '</div></div>';
                                 echo '</div>';
                             }
                         ?>
