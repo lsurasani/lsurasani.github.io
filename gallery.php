@@ -24,13 +24,15 @@
                                 public $description;
                             }
 
+                            /* Images had errors
+                            
                             $fk = new Photo();
-                            $fk->pic = "pics/IMG_5704.JPG";
+                            $fk->pic = "pics/fk.jpg";
                             $fk->description = "FurKids Marketing Strategy Presentation";
 
                             $oh = new Photo();
-                            $oh->pic = "pics/IMG_5703.JPG";
-                            $oh->description = "Our House Presentation";
+                            $oh->pic = "pics/oh.jpg";
+                            $oh->description = "Our House Presentation"; */
                         
                             $cac = new Photo();
                             $cac->pic = "pics/IMG_7635.jpg";
@@ -64,7 +66,7 @@
                             $cf->pic = "pics/IMG_7643.jpg";
                             $cf->description = "City of Refuge Presentation";
 
-                            $photos = array($fk, $oh, $cac, $mac, $mfb, $team, $ew, $mfb2, $mac2, $cf);
+                            $photos = array($cac, $mac, $mfb, $team, $ew, $mfb2, $mac2, $cf);
 
                             foreach($photos as $photo) {
                                 echo '<div class="card">';
