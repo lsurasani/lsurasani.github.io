@@ -25,11 +25,11 @@
                             }
 
                             $fk = new Photo();
-                            $fk->pic = "pics/IMG_5704.jpg";
+                            $fk->pic = "pics/IMG_5704.JPG";
                             $fk->description = "FurKids Marketing Strategy Presentation";
 
                             $oh = new Photo();
-                            $oh->pic = "pics/IMG_5703.jpg";
+                            $oh->pic = "pics/IMG_5703.JPG";
                             $oh->description = "Our House Presentation";
                         
                             $cac = new Photo();
@@ -69,7 +69,7 @@
                             foreach($photos as $photo) {
                                 echo '<div class="card">';
                                 echo '<div class="image"><img src="' . $photo->pic . '" alt="' . $photo->description .' logo"></div>';
-                                echo '<div class="content"><div class="header">' . $photo->description . '</div><div class="description">' . $photo->description . '</div></div>';
+                                echo '<div class="content"><div class="description">' . $photo->description . '</div></div>';
                                 echo '</div>';
                             }
                         ?>
