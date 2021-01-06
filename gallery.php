@@ -44,7 +44,27 @@
                             $mfb->pic = "pics/IMG_7637.jpg";
                             $mfb->description = "Midwest Food Bank Presentation";
 
-                            $photos = array($fk, $oh, $cac, $mac, $mfb);
+                            $team = new Photo();
+                            $team->pic = "pics/IMG_7639.jpg";
+                            $team->description = "The SCNO@GT team";
+
+                            $ew = new Photo();
+                            $ew->pic = "pics/IMG_7640.jpg";
+                            $ew->description = "Everybody Wins! Atlanta Presentation";
+
+                            $mfb2 = new Photo();
+                            $mfb2->pic = "pics/IMG_7641.jpg";
+                            $mfb2->description = "Midwest Food Bank Georgia Presentation";
+
+                            $mac2 = new Photo();
+                            $mac2->pic = "pics/IMG_7642.jpg";
+                            $mac2->description = "MAC LAB Fall 2018 Presentation";
+
+                            $cf = new Photo();
+                            $cf->pic = "pics/IMG_7642.jpg";
+                            $cf->description = "MAC LAB Fall 2018 Presentation";
+
+                            $photos = array($fk, $oh, $cac, $mac, $mfb, $team, $ew, $mfb2, $mac2);
 
                             foreach($photos as $photo) {
                                 echo '<div class="card">';
