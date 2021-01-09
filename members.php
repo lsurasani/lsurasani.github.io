@@ -70,7 +70,7 @@
                         $tejas->title = 'VP of Internal Affairs';
                         $tejas->year = '3rd';
                         $tejas->major = 'Industrial Engineering';
-                        $tejas->imgsrc="pics/Tejas.jpeg";
+                        $tejas->imgsrc="pics/tejas.jpeg";
 
                         $carter = new Member();
                         $carter->name = "Carter Gooch";
