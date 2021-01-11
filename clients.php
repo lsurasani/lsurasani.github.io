@@ -52,7 +52,7 @@
                             $hh->description = "Habitat for Humanity is a global nonprofit housing organization working in local communities across all 50 states in the U.S. and in approximately 70 countries towards a vision of a world where everyone has a decent place to live. SCNO devised a marketing outreach plan to increase store traffic to the Atlanta Habitat for Humanity ReStore and recommended the addition of an incentive tracking system in Habitat for Humanity’s volunteer and donor database to increase volunteer count and contribution amounts.";
                             
                             $tsa = new Project();
-                            $tsa->logo = "pics/habitat.png";
+                            $tsa->logo = "pics/salvationarmy.png";
                             $tsa->name = "The Salvation Army";
                             $tsa->description = "The Salvation Army is an international, faith-based organization that serves to meet human needs without discrimination and assists approximately 23 million Americans annually. SCNO identified the most productive locations, relationship between net income and days leading up to Christmas, optimal shift length, and relationship between weather and net income, and proposed an optimal start date for the Salvation Army’s seasonal Red Kettle Campaign in Metro Atlanta.";
                            
@@ -120,6 +120,7 @@
                             foreach($projects as $project) {
                                 echo '<div class="card">';
                                 echo '<div class="image" data-toggle="tooltip" title="' . $project->description . '"><img src="' . $project->logo . '" alt="' . $project->name .' logo"></div>';
+                                //echo '<div class="image" data-toggle="modal" title="' . $project->description . '"><img src="' . $project->logo . '" alt="' . $project->name .' logo"></div>';
                                 //echo '<div class="content"><div class="header">' . $project->name . '</div><div class="description">' . $project->description . '</div></div>';
                                 echo '</div>';
                             }
