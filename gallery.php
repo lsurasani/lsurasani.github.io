@@ -69,7 +69,7 @@
                             $photos = array($cac, $mac, $mfb, $team, $ew, $mfb2, $mac2, $cf);
 
                             foreach($photos as $photo) {
-                                echo '<div class="card">';
+                                echo '<div class="card col-sm-6">';
                                 echo '<div class="image"><img src="' . $photo->pic . '" alt="' . $photo->description .' logo"></div>';
                                 echo '<div class="content"><div class="description">' . $photo->description . '</div></div>';
                                 echo '</div>';
