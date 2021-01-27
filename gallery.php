@@ -17,7 +17,7 @@
                     <h1>Photo Gallery</h1>
                 </div>
                 <div class="projects">
-                    <div class="ui cards">
+                    <div class="ui cards row">
                         <?php 
                             class Photo {
                                 public $pic;
