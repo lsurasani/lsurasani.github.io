@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-
+     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <head>
         <?php include "head.html"; ?>
         <title>Students Consulting for Nonprofit Organizations - Our Clients</title>
@@ -69,7 +73,7 @@
                             $photos = array($cac, $mac, $mfb, $team, $ew, $mfb2, $mac2, $cf);
 
                             foreach($photos as $photo) {
-                                echo '<div class="card col-sm-6">';
+                                echo '<div class="row">';
                                 echo '<div class="image"><img src="' . $photo->pic . '" alt="' . $photo->description .' logo"></div>';
                                 echo '<div class="content"><div class="description">' . $photo->description . '</div></div>';
                                 echo '</div>';
