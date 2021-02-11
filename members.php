@@ -111,9 +111,9 @@
                             }
 
                             echo '<div class="row">';
-                            echo '<div class="card">';
-                            echo '<div class="image"><img src="' . $execMember->imgsrc . '" alt="SCNO executive board member: ' . $execMember->name . '" height="300" width="180"></div>';
-                            echo '<div class="col-sm-4 content">';
+                            echo '<div class="card col-sm-6">';
+                            echo '<div class="image"><img src="' . $execMember->imgsrc . '" alt="SCNO executive board member: ' . $execMember->name . '" width="25%"></div>';
+                            echo '<div class="col-sm-9 content">';
                             echo $execMember->name . $linkedin_icon . '<br>' . $execMember->year . ' Year, ' . $execMember->major . '<br>' . $execMember->title;
                             echo '</div>';
                             echo '</div>';
