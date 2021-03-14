@@ -74,7 +74,7 @@
 
                             foreach($photos as $photo) {
                                 //echo '<div class="col-sm-6">';
-                                echo '<div class="card">';
+                                //echo '<div class="card">';
                                 echo '<div class="image"><img src="' . $photo->pic . '" alt="' . $photo->description .' logo"></div>';
                                 echo '<div class="content" style="text-align: center;"><div class="description">' . $photo->description . '</div></div>';
                                 echo '</div>';
